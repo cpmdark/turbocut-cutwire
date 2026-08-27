@@ -72,3 +72,6 @@ third_party/prebuilt/
 .env.*
 
 !resources/diagnostics/bench1080p60.mp4
+# TurboCut — arquivos locais
+.claude/settings.local.json
+_planejamento/
