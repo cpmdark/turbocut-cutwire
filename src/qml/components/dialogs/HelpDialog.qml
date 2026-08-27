@@ -13,8 +13,8 @@ ThemedDialog {
 
     readonly property var links: [
         { glyph: Theme.icons.bug, title: qsTr("Open an issue on GitHub"),
-          url: "https://github.com/CutWire-Studios/Drift/issues",
-          label: "github.com/CutWire-Studios/Drift/issues" },
+          url: "https://github.com/cpmdark/turbocut-cutwire/issues",
+          label: "github.com/cpmdark/turbocut-cutwire/issues" },
         { glyph: Theme.icons.messageCircle, title: qsTr("Join our Discord server"),
           url: "https://cutwire.org/discord", label: "cutwire.org/discord" },
         { glyph: Theme.icons.bookOpen, title: qsTr("Read the docs"),

@@ -1,47 +1,29 @@
 <p align="center">
-  <img src="Drift_icon.png" alt="Drift icon" width="128" height="128">
+  <img src="Drift_icon.png" alt="TurboCut" width="128" height="128">
 </p>
 
-<h1 align="center">Drift</h1>
+<h1 align="center">TurboCut</h1>
 
 <p align="center">
-  <strong>The free video editor that makes your videos look finished — not “good enough.”</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/CutWire-Studios/Drift/releases/latest"><img src="https://img.shields.io/github/v/release/CutWire-Studios/Drift?label=release&style=flat&labelColor=28272f&color=feb504" alt="Latest release" height="24"></a>
-  <a href="https://github.com/CutWire-Studios/Drift/releases"><img src="https://img.shields.io/github/downloads/CutWire-Studios/Drift/total?label=GitHub%20downloads&style=flat&labelColor=28272f&color=feb504" alt="GitHub downloads" height="24"></a>
-  <a href="https://flathub.org/apps/org.cutwire.Drift"><img src="https://img.shields.io/flathub/downloads/org.cutwire.Drift?label=Flathub%20installs&style=flat&labelColor=28272f&color=feb504" alt="Flathub installs" height="24"></a>
-  <a href="https://discord.gg/J5ANFz6Z3y"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FJ5ANFz6Z3y%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=F8F8F8&label=Discord&color=feb504&labelColor=28272f&style=flat" alt="Join Drift Discord" height="24"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/CutWire-Studios/Drift?style=flat&labelColor=28272f&color=feb504" alt="License: GPL-3.0" height="24"></a>
-  <img src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS%20%7C%20Android-feb504?style=flat&labelColor=28272f" alt="Platform: Linux | Windows | macOS | Android" height="24">
+  <strong>O editor de vídeo gratuito, em português, que deixa seus vídeos com cara de prontos.</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.opensourcealternatives.to"><img src="https://www.opensourcealternatives.to/badge-osa.svg" alt="Listed on Open Source Alternatives"></a>
+  <a href="https://github.com/alexbassani/turbocut-cutwire/releases/latest"><img src="https://img.shields.io/github/v/release/alexbassani/turbocut-cutwire?label=release" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License: GPL-3.0"></a>
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Android-lightgrey" alt="Platform: Windows | Linux | macOS | Android">
 </p>
 
 <p align="center">
-  <a href="https://cutwire.org/drift"><strong>cutwire.org/drift</strong></a>
+  <a href="https://github.com/alexbassani/turbocut-cutwire/releases/latest">Download</a> ·
+  <a href="https://github.com/alexbassani/turbocut-cutwire/issues">Issues</a> ·
+  <a href="FORK.md">Sobre o fork</a> ·
+  <a href="LICENSE">Licença</a>
 </p>
 
-<p align="center">
-  Translations:
-  <a href="README-i18n/README.ar.md">العربية</a> ·
-  <a href="README-i18n/README.bn.md">বাংলা</a> ·
-  <a href="README-i18n/README.es.md">Español</a> ·
-  <a href="README-i18n/README.fr.md">Français</a> ·
-  <a href="README-i18n/README.it.md">Italiano</a> ·
-  <a href="README-i18n/README.ja.md">日本語</a> ·
-  <a href="README-i18n/README.ko.md">한국어</a> ·
-  <a href="README-i18n/README.pl.md">Polski</a> ·
-  <a href="README-i18n/README.pt.md">Português</a> ·
-  <a href="README-i18n/README.ru.md">Русский</a> ·
-  <a href="README-i18n/README.si.md">සිංහල</a> ·
-  <a href="README-i18n/README.tl.md">Tagalog</a> ·
-  <a href="README-i18n/README.vi.md">Tiếng Việt</a> ·
-  <a href="README-i18n/README.zh-Hans.md">简体中文</a>
-</p>
+> **TurboCut** é um fork brasileiro e amigável do [CutWire Drift](https://github.com/CutWire-Studios/Drift): o mesmo editor open source, com identidade TurboCut, interface em português e foco em criadores do Brasil. Todo o crédito do motor é do [CutWire Studios](https://cutwire.org); as mudanças deste fork estão descritas em [FORK.md](FORK.md).
+>
+> *TurboCut is a friendly Brazilian fork of CutWire Drift — the same GPL-3.0 editor, with TurboCut branding and a pt-BR translation. See [FORK.md](FORK.md) for the delta against upstream.*
 
 Drift is a video editor for Linux, Windows, macOS and Android from CutWire Studios. Drop in clips, add effects, captions, stickers,
 and music, then export a polished video — with **no subscription, no watermark, and no account**.

@@ -22,24 +22,26 @@
   #define MyArchSpec "x64compatible"
 #endif
 
+; TurboCut fork: own AppIds, so it can never upgrade over (or be upgraded by) an
+; upstream Drift install on the same machine.
 #ifdef Nightly
-  #define MyAppName "Drift Nightly"
-  #define MyAppId "1699D9B5-080B-4892-ACEE-EC56B595E89B"
-  #define MyOutputBase "Drift-Setup-Nightly-" + Arch
+  #define MyAppName "TurboCut Nightly"
+  #define MyAppId "96B3680B-BE4A-43DE-B65F-D07B68C1AC55"
+  #define MyOutputBase "TurboCut-Setup-Nightly-" + Arch
 #else
-  #define MyAppName "Drift"
-  #define MyAppId "1FC80696-7700-464A-8E35-CCBB3239EDFB"
-  #define MyOutputBase "Drift-Setup-" + Arch
+  #define MyAppName "TurboCut"
+  #define MyAppId "DC0EC0C4-090C-4519-A3EF-33E9B201A062"
+  #define MyOutputBase "TurboCut-Setup-" + Arch
 #endif
-#define MyAppPublisher "CutWire Studios"
-#define MyAppExeName "drift.exe"
+#define MyAppPublisher "Alex Bassani"
+#define MyAppExeName "turbocut.exe"
 
 [Setup]
 AppId={{{#MyAppId}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-AppSupportURL=https://github.com/CutWire-Studios/Drift/issues
+AppSupportURL=https://github.com/alexbassani/turbocut-cutwire/issues
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 ArchitecturesAllowed={#MyArchSpec}
@@ -58,6 +60,7 @@ OutputDir=output
 OutputBaseFilename={#MyOutputBase}
 
 [Languages]
+Name: "brazilianportuguese"; MessagesFile: "compiler:Languages\BrazilianPortuguese.isl"
 Name: "english"; MessagesFile: "compiler:Default.isl"
 
 [Tasks]
@@ -67,7 +70,9 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 ; Recursive: alongside the exe and its Qt runtime this carries the bundled
 ; effects\, transitions\, effect-templates\ and audio-effects\ package
 ; directories, which the app resolves relative to the executable.
-Source: "{#MyAppSource}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+; CI stages the binary as drift.exe; the install renames it to turbocut.exe.
+Source: "{#MyAppSource}\*"; DestDir: "{app}"; Excludes: "\drift.exe"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#MyAppSource}\drift.exe"; DestDir: "{app}"; DestName: "{#MyAppExeName}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
@@ -78,10 +83,10 @@ Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: de
 ; delete the association out from under the stable install (uninsdeletekey), and two channels
 ; fighting over which opens a .drift file helps nobody.
 [Registry]
-Root: HKCR; Subkey: ".drift"; ValueType: string; ValueName: ""; ValueData: "CutWire.Drift.Project"; Flags: uninsdeletevalue
-Root: HKCR; Subkey: "CutWire.Drift.Project"; ValueType: string; ValueName: ""; ValueData: "Drift Project"; Flags: uninsdeletekey
-Root: HKCR; Subkey: "CutWire.Drift.Project\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
-Root: HKCR; Subkey: "CutWire.Drift.Project\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
+Root: HKCR; Subkey: ".drift"; ValueType: string; ValueName: ""; ValueData: "TurboCut.Project"; Flags: uninsdeletevalue
+Root: HKCR; Subkey: "TurboCut.Project"; ValueType: string; ValueName: ""; ValueData: "Projeto do TurboCut"; Flags: uninsdeletekey
+Root: HKCR; Subkey: "TurboCut.Project\DefaultIcon"; ValueType: string; ValueName: ""; ValueData: "{app}\{#MyAppExeName},0"
+Root: HKCR; Subkey: "TurboCut.Project\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppExeName}"" ""%1"""
 #endif
 
 [Run]
