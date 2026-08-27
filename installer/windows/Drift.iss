@@ -41,6 +41,8 @@ WizardStyle=modern
 ; Path is relative to this script. Without these two, setup runs under the stock
 ; Inno icon and the Apps & Features entry falls back to a generic one.
 SetupIconFile=..\..\resources\windows\drift.ico
+WizardImageFile=..\..\resources\windows\wizard-large.bmp
+WizardSmallImageFile=..\..\resources\windows\wizard-small.bmp
 UninstallDisplayIcon={app}\{#MyAppExeName}
 #ifndef Nightly
 ChangesAssociations=yes
