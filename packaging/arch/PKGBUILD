@@ -4,7 +4,7 @@ pkgver=0.9.1
 pkgrel=1
 pkgdesc="Beginner-friendly open-source video editor built with Qt 6, QML and FFmpeg"
 arch=('x86_64' 'aarch64')
-url="https://github.com/CutWire-Studios/Drift"
+url="https://github.com/alexbassani/turbocut-cutwire"
 license=('GPL-3.0-or-later')
 # !lto: makepkg's default -flto=auto makes gcc emit GIMPLE objects, which lld cannot link.
 options=('!debug' '!lto')
@@ -34,7 +34,9 @@ _commit="${_commit:-v$pkgver}"
 # Must match SKIA_COMMIT / SKIA_SHA256 in third_party/build-skia.sh; the script is handed this
 # extracted tree so it never downloads anything during build().
 _skia_commit=e7c90ecca9444fe09598f1630ab7cee2c0ee027a
-source=("$pkgname::git+https://github.com/CutWire-Studios/Drift.git#commit=$_commit"
+# TurboCut (fork): a fonte é este repositório — o CI passa _commit=$GITHUB_SHA,
+# que só existe aqui, não no repo do upstream.
+source=("$pkgname::git+https://github.com/alexbassani/turbocut-cutwire.git#commit=$_commit"
         "skia-$_skia_commit.tar.gz::https://github.com/google/skia/archive/$_skia_commit.tar.gz")
 sha256sums=('SKIP'
             '7b5158952ebc4e2ce8de19f036b7613e266705003469579d9e98070ead62fc3b')
