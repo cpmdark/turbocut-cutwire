@@ -967,7 +967,7 @@ endif()
 qt_add_resources(drift "drift_app_icon"
     PREFIX "/app"
     BASE resources
-    FILES resources/drift.png
+    FILES resources/drift.png resources/splash.png
 )
 
 # Fixed input for the playback diagnostics benchmark, so numbers from two different bug
