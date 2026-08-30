@@ -4,7 +4,7 @@ pkgver=0.6.0
 pkgrel=1
 pkgdesc="Beginner-friendly open-source video editor built with Qt 6, QML and FFmpeg"
 arch=('x86_64')
-url="https://github.com/alexbassani/turbocut-cutwire"
+url="https://github.com/cpmdark/turbocut-cutwire"
 license=('GPL-3.0-or-later')
 # qt6-imageformats supplies the qwebp and qtiff QImageReader plugins. Nothing links against
 # them, so a build without it succeeds and then decodes every .webp/.tiff still to a null QImage
@@ -33,7 +33,7 @@ _commit="${_commit:-v$pkgver}"
 _skia_commit=e7c90ecca9444fe09598f1630ab7cee2c0ee027a
 # TurboCut (fork): a fonte é este repositório — o CI passa _commit=$GITHUB_SHA,
 # que só existe aqui, não no repo do upstream.
-source=("$pkgname::git+https://github.com/alexbassani/turbocut-cutwire.git#commit=$_commit"
+source=("$pkgname::git+https://github.com/cpmdark/turbocut-cutwire.git#commit=$_commit"
         "skia-$_skia_commit.tar.gz::https://github.com/google/skia/archive/$_skia_commit.tar.gz")
 sha256sums=('SKIP'
             '7b5158952ebc4e2ce8de19f036b7613e266705003469579d9e98070ead62fc3b')
