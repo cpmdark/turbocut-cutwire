@@ -10,13 +10,14 @@ repositório.
 
 ## Política do fork
 
-- **Delta mínimo.** Nada de refatorar o motor nem criar recursos próprios aqui: mudança que
-  valha a pena vira contribuição para o upstream. Este fork carrega apenas marca, tradução,
-  conteúdo e empacotamento.
+- **Delta pequeno e nosso.** Hoje este fork carrega marca, tradução, conteúdo e empacotamento.
+  Desde 20/09/2026 ele **pode ganhar recursos próprios** quando o mantenedor decidir: em passos
+  pequenos, em arquivos novos sempre que possível, listados na tabela abaixo — e oferecidos ao
+  upstream como contribuição (se forem adotados lá, saem daqui). Não refatoramos o motor do Drift.
 - **Compatibilidade total de projetos.** O formato `.drift` não é tocado — um projeto abre no
   Drift e no TurboCut igualmente.
-- **Sync frequente.** `main` = `upstream/main` + os commits listados abaixo, rebaseados a cada
-  release do Drift.
+- **Sync por release, quando fizer sentido para nós.** `main` = última tag de release do Drift +
+  os commits listados abaixo, rebaseados a cada sync.
 
 ## Mudanças em relação ao upstream
 

@@ -8,17 +8,43 @@
 
 ## O que é o TurboCut
 
-Fork brasileiro e **fino** do [CutWire Drift](https://github.com/CutWire-Studios/Drift)
+Fork brasileiro do [CutWire Drift](https://github.com/CutWire-Studios/Drift)
 (editor de vídeo desktop, C++/Qt 6/FFmpeg, GPL-3.0), mantido por Alex Bassani.
-O delta é deliberadamente mínimo: marca, tradução pt-BR, correções de plataforma e
-empacotamento. **Motor é do upstream; identidade e distribuição são nossas.**
+Hoje o delta é marca, tradução pt-BR, correções de plataforma e empacotamento — e, desde
+20/09/2026, **pode ganhar função nossa quando o Alex decidir** (Regra #0). O motor nasce no
+upstream; a identidade, a distribuição e o rumo são nossos.
 
-## ⛔ Regra #0 (acima de todas): o delta é sagrado
+## 🧭 Regra #0 (acima de todas): o TurboCut segue com o Drift — do NOSSO jeito, e quem decide é o Alex
 
-**NUNCA refatorar o motor, NUNCA criar feature de edição no fork.** Melhoria de
-editor vai para o upstream como issue/PR; o fork só carrega marca, tradução,
-conteúdo e distribuição. Cada linha a mais aqui é uma linha re-aplicada em TODO
-sync, para sempre.
+> **REVOGADA em 20/09/2026 a regra antiga** (*"o delta é sagrado — NUNCA criar feature de edição no fork"*).
+> Ela nasceu em 27–28/08/2026 para o fork sair em dois dias, ficou sem prazo e sem revisão, e passou a travar o
+> mantenedor. Decisão do Alex: **seguimos com o Drift, do nosso jeito — sem depender de olhar lá todo dia.**
+> A licença (GPL-3.0) só pede uma coisa: quem distribui o programa publica o código — e este repositório já é
+> público. **Nada nela, nem no projeto original, proíbe função nossa.**
+
+1. **Função própria é PERMITIDA. A decisão é do Alex, nunca de uma regra.** Quando ele pedir algo que o Drift não
+   tem, a resposta NÃO é "isso vai para o upstream": é o custo dito em UMA linha (*"dá para fazer aqui; isto passa a
+   ser reaplicado a cada sync"*) — e ele decide.
+2. **O jeito cuidadoso de fazer:** passo pequeno, em ARQUIVO NOVO sempre que der (arquivo nosso não conflita no
+   sync), tocando o mínimo do que é deles; registrado na tabela do [FORK.md](FORK.md); oferecido ao upstream como
+   PR **por cortesia** — se eles adotarem, o nosso delta encolhe sozinho (foi o que houve com o conserto do FreeType).
+3. **Antes de escrever, OLHAR o que já veio de lá** (Regra #0.2) — a v0.6.0 entregou, de graça, quase a lista de
+   desejos inteira do Alex. Sincronizar costuma ser mais barato que escrever.
+4. **Continua valendo: não refatorar o motor deles por gosto.** Reorganizar código alheio não dá nada ao usuário e
+   torna todo sync um inferno. Função nova, sim; faxina no que é deles, não.
+5. **Exclusividade para aluno mora FORA deste binário** (TurboStudio, MCP, conteúdo): o que entra aqui é GPL e público.
+
+### 🔭 Regra #0.2 — ninguém precisa "lembrar de olhar o Drift": o passo 0 de TODA sessão é este comando
+
+```bash
+gh release list -R CutWire-Studios/Drift --limit 3 && gh release list -R cpmdark/turbocut-cutwire --limit 1
+```
+
+Se o Drift estiver à frente, **dizer ao Alex na primeira resposta**, com o resumo do que veio
+(`gh release view vX.Y.Z -R CutWire-Studios/Drift`), e só então seguir com o pedido dele. Em 20/09/2026 a v0.6.0
+estava no ar havia 7 dias sem ninguém ter visto — com a camada de ajuste (ideia dele), colar atributos na seleção,
+seleção múltipla e pastas na biblioteca. **Sincronizar é escolha NOSSA** (quando vier algo que a gente queira ou um
+conserto que proteja o usuário), não obrigação diária.
 
 ### ⛔ Regra #0.1 — a base é a TAG de release, NUNCA o main do upstream
 
@@ -76,6 +102,14 @@ FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
 8. Atualizar `## Estado atual (atualizado 30/08/2026 — v0.5.0 LANCADA, 1a atualizacao real dos usuarios)
 
+- **🔴 O DRIFT LANCOU A v0.6.0 EM 13/09/2026 E O TURBOCUT ESTA NA v0.5.1** (visto em 20/09, por uma
+  sessao do TurboStudio; ninguem tinha olhado). E o passo de MAIOR VALOR hoje: a v0.6.0 entrega quase a lista
+  de desejos inteira do Alex - camada de ajuste (ideia dele, #154), colar atributos na selecao com escolha do
+  que levar (#124), biblioteca com selecao multipla + pastas + importar PASTA + tirar midia em uso (#123),
+  selecionar tudo e mover junto, renomear faixa, separar/extrair audio, 100+ transicoes de GPU, animacoes de
+  texto (inclusive karaoke), Lottie/SVG, recorte de fundo, MCP em modo CLI sem janela, correcoes de NVIDIA.
+  Das issues dele so a #125 segue aberta. ➡️ Proxima sessao: sync para a v0.6.0 pelo roteiro abaixo (precisa
+  do Alex no force-push). A Regra #0 mudou em 20/09/2026 - ler antes.
 - **✅ v0.5.1 NO AR** (05/09): correcao do piscar preto na pre-visualizacao em
   placas NVIDIA (defeito que a 0.5.0 trouxe junto com a aceleracao do preview).
   Sync limpo: 1 conflito so (selo de plataformas do README), catalogo com 0
@@ -123,7 +157,8 @@ FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
 
 ## Checklist antes de qualquer alteração
 
-- [ ] Isso é feature de motor? → upstream, não aqui (Regra #0).
+- [ ] Rodei o passo 0 (Regra #0.2) e disse ao Alex se o Drift está à frente?
+- [ ] É função nova? → conferir se o Drift JÁ entregou; se não, dizer o custo em uma linha e o Alex decide (Regra #0). Arquivo novo sempre que der; registrar no FORK.md.
 - [ ] Toquei em catálogo? → regras de ouro 4–5.
 - [ ] Toquei em asset? → mesmo nome de arquivo (regra 1).
 - [ ] Vou mexer no TurboStudio? → PARE: avisar o Alex antes, protocolo da bancada.
