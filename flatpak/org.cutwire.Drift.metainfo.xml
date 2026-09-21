@@ -355,56 +355,49 @@
         French (Canada); and to Loposmo for Spanish.</p>
       </description>
     </release>
-    <release version="0.6.0" date="2026-09-13">
-      <url type="details">https://github.com/CutWire-Studios/Drift/releases/tag/v0.6.0</url>
+    <release version="0.6.0" date="2026-09-20">
+      <url type="details">https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.6.0</url>
       <description>
-        <p>Text and shapes are redrawn through Skia with layered styles, gradients and a new
-        animation engine, Lottie and SVG clips arrive on the timeline, over a hundred new
-        transitions land in the add-ons catalog, and Windows gets a Direct3D zero-copy path
-        with fixes for NVIDIA stutter.</p>
+        <p>A maior atualização do TurboCut até hoje. Texto e formas foram refeitos do zero,
+        chegaram as camadas de ajuste, o colar atributos em vários clipes de uma vez, mais de
+        cem transições novas e uma lista de melhorias na biblioteca de mídia. Tudo em
+        português.</p>
         <ul>
-          <li>Text styles: fill, stroke, shadow, glow and extrude layers with solid, gradient,
-          texture or shader paints, a Looks gallery (Neon, Chrome, Holographic, Glitch, Outline,
-          Echo and more), curved baselines and keyframable size, tracking and layer settings</li>
-          <li>Text animations: per-character, word or line animators with In, Out and Loop
-          preset galleries — typewriter, type-on blur, rise by word, snap together, glitch,
-          flicker, colour wave, wipe, karaoke pop and bounce, and 40 more</li>
-          <li>Shapes share the same style stack: gradient fills, multiple strokes, shadows,
-          glows and dashes, all keyframable so shapes can animate</li>
-          <li>Lottie (.lottie, .json) and SVG files import as vector clips, with a Motion
-          inspector for editing slots, playback options and poster frames</li>
-          <li>100+ new GPU transitions ported from gl-transitions, available through the add-ons
-          catalog, plus easing curves for every transition</li>
-          <li>In-app Marketplace for browsing and downloading stock media, with a separate
-          download-queue window</li>
-          <li>Adjustment layers in the Effects tab; masks are now keyframeable adjustment layers
-          with on-canvas handles and their own Masks tab</li>
-          <li>Cutouts via Robust Video Matting, and Paste Attributes with selective picking
-          across multi-clip selections</li>
-          <li>Windows: Direct3D 11 zero-copy decoding and a GPU switcher for hybrid laptops;
-          fixed CUDA zero-copy and CUDA/OpenGL interop stutter on NVIDIA, hybrid-GPU decode,
-          display-cadence stutter and the black preview on software OpenGL; new playback
-          diagnostics and a warning for hardware-acceleration settings that will not work on
-          the current machine</li>
-          <li>Audio: multi-channel waveform view, decibel volume control, multi-track audio
-          extraction, and separate-audio / unlink actions on the timeline</li>
-          <li>Media bin: tree view, Import Folder, nested folder moves, multi-select with
-          Shift-click ranges and bulk actions, safe removal of in-use media, lossless 90°
-          rotation correction and non-destructive trimming from the bin</li>
-          <li>Android: hardware-accelerated video decoding and a reworked mobile layout</li>
-          <li>Save As, track renaming, select-all-and-move, keyboard delete, Shift+Arrow
-          frame-by-frame scrubbing, native shortcut labels on macOS, and settings moved into
-          a dialog</li>
-          <li>MCP: headless CLI mode, text, shape and motion-graphics tools, and lower token
-          usage</li>
-          <li>Translations: Tagalog and Vietnamese added; Japanese and Spanish updated</li>
+          <li>Estilos de texto em camadas: preenchimento, contorno, sombra, brilho e extrusão,
+          com cor sólida, degradê, textura ou efeito — mais uma galeria de visuais prontos
+          (Neon, Cromado, Holográfico, Falha, Contorno, Eco e outros)</li>
+          <li>Animações de texto por letra, palavra ou linha, com galerias de entrada, saída e
+          repetição: máquina de escrever, subir por palavra, falha, cintilação, onda de cor,
+          karaokê com salto e mais 40</li>
+          <li>Camadas de ajuste na aba Efeitos: um efeito passa a valer para tudo o que está
+          embaixo, em vez de ser aplicado clipe por clipe. As máscaras também viraram camadas
+          de ajuste, com alças na própria tela e uma aba só delas</li>
+          <li>Colar atributos escolhendo o que vai junto (movimento, velocidade, volume,
+          efeitos, transições) e aplicando a vários clipes selecionados de uma vez</li>
+          <li>Recorte de pessoa do fundo, automático ou por clique</li>
+          <li>Formas com o mesmo conjunto de estilos: degradê, vários contornos, sombras,
+          brilhos e tracejados, todos animáveis</li>
+          <li>Arquivos Lottie (.lottie, .json) e SVG entram como clipes vetoriais, com painel
+          próprio para trocar textos, imagens e o modo de repetição</li>
+          <li>Mais de 100 transições novas aceleradas por placa de vídeo, no catálogo de
+          extras, com curva de suavização para cada uma</li>
+          <li>Biblioteca de mídia: visão em árvore, <em>importar pasta inteira</em>, pastas
+          dentro de pastas, seleção múltipla com Shift, ações em lote, remoção segura de
+          mídia em uso e correção de rotação sem perda de qualidade</li>
+          <li>Mercado dentro do aplicativo para procurar e baixar fotos, vídeos e áudios de
+          banco, com janela de fila de downloads</li>
+          <li>Windows: decodificação Direct3D 11 sem cópias e seletor de placa de vídeo para
+          notebooks híbridos; corrigidos os engasgos em placas NVIDIA e a pré-visualização
+          preta no OpenGL por software. Nova tela de diagnóstico mostra onde o tempo se perde</li>
+          <li>Áudio: onda por canal, volume em decibéis, extração de várias faixas de uma vez,
+          e separar / desvincular o áudio direto na linha do tempo</li>
+          <li>Salvar como, renomear faixa, selecionar tudo e mover junto, apagar pelo teclado,
+          e Shift+setas para andar quadro a quadro</li>
+          <li>Corrigido: as letras sobrepostas nas caixas de diálogo do Windows — a causa era
+          a fonte da interface, agora trocada por versões separadas de cada peso</li>
         </ul>
-        <p>Thanks to @jmn8718 for lossless rotation correction, Import Folder, track renaming
-        and the media bin multi-select and folder moves; to @gorio for safe media removal,
-        keyboard delete, separate-audio and unlink actions, track numbering and native macOS
-        shortcuts; to @TSFBCE24RhythmHeaveners for the Tagalog translation; to @tojidotakarin
-        for Vietnamese; to @coolvitto for Japanese; and to @angelreyesvelazquezjesus-gif for
-        Spanish.</p>
+        <p>Baseado no CutWire Drift 0.6.0. A camada de ajuste nasceu de uma sugestão do
+        TurboCut ao projeto original.</p>
       </description>
     </release>
     <release version="0.5.1" date="2026-09-05">
