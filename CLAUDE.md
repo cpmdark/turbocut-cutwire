@@ -100,59 +100,44 @@ FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
 6. Build de teste: `gh workflow run build-windows.yml -R cpmdark/turbocut-cutwire -f version=X.Y.Z-turboN`.
 7. Validou? Tag `vX.Y.Z` → release.yml gera TODAS as plataformas e publica a
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
-8. Atualizar `## Estado atual (atualizado 30/08/2026 — v0.5.0 LANCADA, 1a atualizacao real dos usuarios)
+8. Atualizar `## Estado atual (atualizado 21/09/2026 — v0.6.0 LANCADA, o maior sync ate hoje)
 
-- **🔴 O DRIFT LANCOU A v0.6.0 EM 13/09/2026 E O TURBOCUT ESTA NA v0.5.1** (visto em 20/09, por uma
-  sessao do TurboStudio; ninguem tinha olhado). E o passo de MAIOR VALOR hoje: a v0.6.0 entrega quase a lista
-  de desejos inteira do Alex - camada de ajuste (ideia dele, #154), colar atributos na selecao com escolha do
-  que levar (#124), biblioteca com selecao multipla + pastas + importar PASTA + tirar midia em uso (#123),
-  selecionar tudo e mover junto, renomear faixa, separar/extrair audio, 100+ transicoes de GPU, animacoes de
-  texto (inclusive karaoke), Lottie/SVG, recorte de fundo, MCP em modo CLI sem janela, correcoes de NVIDIA.
-  Das issues dele so a #125 segue aberta. ➡️ Proxima sessao: sync para a v0.6.0 pelo roteiro abaixo (precisa
-  do Alex no force-push). A Regra #0 mudou em 20/09/2026 - ler antes.
-- **✅ v0.5.1 NO AR** (05/09): correcao do piscar preto na pre-visualizacao em
-  placas NVIDIA (defeito que a 0.5.0 trouxe junto com a aceleracao do preview).
-  Sync limpo: 1 conflito so (selo de plataformas do README), catalogo com 0
-  pendencias, release verde de primeira em todas as plataformas.
-  https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.5.1
-- **⏳ PROXIMO SYNC ja tem material:** o `main` deles tem ~20 commits apos a
-  v0.5.1, com **camada de ajuste** (ideia do Alex, issue #154, entregue em 1 dia),
-  **multi-selecao + acoes em lote na bin** (nossa #123) e **arrastar a selecao
-  junta na timeline**. Aguardando eles cortarem a tag (regra #0.1). O pt_BR do
-  `main` deles ja tem **44 strings sem traducao**.
-- **🎉 v0.5.0 NO AR** (30/08): primeiro sync completo do fork, e a PRIMEIRA
-  atualizacao que os usuarios recebem pelos canais que construimos (aviso in-app
-  + botao "Atualizar" do card do TurboStudio, ambos estreando).
-  https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.5.0
-  - Entregou: **export ~3x mais rapido** (medido pelo Alex; era a issue #127,
-    que eles corrigiram), pastas na biblioteca, preview/aparar/cortar antes da
-    timeline, estabilizacao, Face Swap, camada de efeitos, escala da interface.
-  - Delta caiu de 19 para **14 commits** — o fix FreeType saiu porque o upstream
-    adotou (regra de ouro 7 virou historica).
-  - Catalogo: 27 strings novas traduzidas; o lupdate deles gravou
-    `language="en"` num arquivo pt_BR e o cabecalho foi restaurado (regra 5).
-  - Notas da release reescritas em portugues no metainfo (a entrada que veio do
-    upstream falava de Drift/Android em ingles) e titulo corrigido a mao para
-    "TurboCut v0.5.0" (item 8-B: o release.yml usa o nome do metainfo).
-- **⚠️ 3 armadilhas do release, para o proximo sync:**
-  1. **A tag do upstream tem o MESMO nome da nossa** (`v0.5.0`). Depois do
-     `git fetch upstream --tags`, a tag local aponta pro commit DELES —
-     `git tag -d vX.Y.Z` e recriar em `main` ANTES de empurrar, senao o CI
-     publica o codigo do upstream sem a nossa marca.
-  2. **Force-push x branch protection:** o sync reescreve a historia. O Alex
-     liga "Allow force pushes" nas settings, a IA empurra e **recoloca a trava
-     via API** (`gh api -X PUT .../branches/main/protection --input -`).
-  3. **Uma falha em QUALQUER pacote pula a publicacao** ("Publish GitHub
-     release: skipped"). Na 0.5.0 o Flatpak falhou baixando o `soundtouch` de
-     `www.surina.net` (site externo fora do ar) — `gh run rerun <id> --failed`
-     resolveu sem recompilar o resto.
+- **🎉 v0.6.0 NO AR** (21/09): https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.6.0
+  Sync de **143 commits deles / 445 arquivos** sobre a base v0.5.1. Release verde
+  de PRIMEIRA em todas as plataformas (Flatpak incluso). Instalador: 110 -> 126 MB.
+  - Entrega ao usuario: **camada de ajuste** (ideia do Alex, issue #154), **colar
+    atributos com escolha do que levar em varios clipes** (a "telinha de checkbox"
+    que ele descreveu do CapCut), importar PASTA, selecao multipla e pastas
+    aninhadas na biblioteca, recorte de pessoa, estilos de texto em camadas COM
+    GRADIENTE, ~50 animacoes de texto (maquina de escrever, karaoke com salto),
+    Lottie/SVG, 100+ transicoes, mercado de midia, Direct3D 11 no Windows.
+  - **Catalogo: 1.026 strings traduzidas** (2.773 mensagens, 0 pendentes). Quase
+    nada era reaproveitavel (2 de 1.026) — a v0.6.0 trouxe UI inteiramente nova.
+  - Delta: **21 commits**. Conflitos resolvidos: `.gitignore` (somar), `main.cpp`
+    (as duas classes irmas — a `CachedNetworkAccessManagerFactory` deles e o nosso
+    `TurboSplash` — mais o `};` compartilhado), `PKGBUILD` (nosso repo + a
+    dependencia Skia nova, 2x), catalogo (ficou o deles; traducao virou commit
+    proprio) e metainfo (a entrada 0.6.0 deles + a nossa 0.5.1 em portugues).
+- **⚠️ REGRA DE OURO 7 VIROU HISTORICA:** o fix FreeType SUMIU da v0.6.0 e esta
+  CERTO que suma — eles consertaram a causa raiz no commit `d9bc922` (a fonte
+  variavel `Inter.ttf` corrompia glifos; trocada por instancias estaticas
+  `InterUI-*`). Nao reintroduzir. A issue deles (#162) foi reportada EM PORTUGUES
+  ("Letras sobrepostas impossibilitando a leitura") — possivelmente usuario nosso.
+- **🔴 ARMADILHA NOVA DO CATALOGO (regra de ouro 4):** os blocos `numerus` precisam
+  do recuo CANONICO do lupdate — `<numerusform>` com **12 espacos** e
+  `</translation>` com 8. Gerei com 8/4 e o teste `Translations` teria reprovado;
+  peguei comparando com `git show vX.Y.Z:i18n/drift_pt_BR.ts` ANTES de commitar.
+  **Conferir sempre contra o arquivo do upstream, nao de memoria.**
+- **As 3 armadilhas do release seguem valendo** — a nº 1 (tag do upstream com o
+  MESMO nome) mordeu de novo e foi pega antes do push; a nº 2 (force-push × branch
+  protection) exigiu o Alex ligar "Allow force pushes" (soltar a trava e bloqueado
+  para a IA; **recolocar passa** e foi feito automaticamente); a nº 3 (uma falha
+  pula a publicacao) nao apareceu desta vez.
+- **v0.5.1** foi a anterior (conserto do piscar preto na NVIDIA).
 - **Repo na organizacao `cpmdark`**; landing nos 2 dominios com o endereco novo.
-- **Upstream:** traducao mergeada (#122) e o Alex creditado nas notas da 0.5.0;
-  #115/#116/#127 fechadas. Comentarios postados em 30/08 nas #123 (multi-selecao
-  na bin + importar pasta), #100 (acoes em grupo) e #76 (clipe composto) —
-  **prazo de reavaliacao: ~13/09/2026** (item 19 do backlog: se nao andar,
-  decidir entre PR nosso e patch no fork).
-- **Rodrigo (autocut)** tem fork (`guigomaster01/turbocut-cutwire`), sem codigo.
+- **Upstream:** das issues do Alex so a **#125** (Dip to Black) segue aberta — ele
+  precisa retestar com outro clipe, o mantenedor nao reproduziu. #154, #123, #100,
+  #127, #115, #116 fechadas; traducao pt-BR mergeada (#122).
 - Pendencias e backlog: `_planejamento/BACKLOG_PROXIMAS_TAREFAS.md` (privado).
 
 ## Checklist antes de qualquer alteração
