@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="pt_BR" sourcelanguage="en">
+<TS version="2.1" language="pt_BR" sourcelanguage="en_US">
 <context>
     <name>AddonManager</name>
     <message>
@@ -342,15 +342,15 @@
     </message>
     <message>
         <source>Let an assistant on this device edit this project until you turn it off or quit.</source>
-        <translation>Permita que um assistente neste dispositivo edite este projeto até você desativar ou sair.</translation>
+        <translation>Permite que um assistente deste computador edite este projeto até você desligar ou fechar.</translation>
     </message>
     <message>
         <source>Turn this on, then copy the setup for Cursor or Claude and paste it into that app.</source>
-        <translation>Ative esta opção, depois copie a configuração do Cursor ou Claude e cole nesse aplicativo.</translation>
+        <translation>Ligue aqui, depois copie a configuração do Cursor ou do Claude e cole no programa.</translation>
     </message>
     <message>
         <source>Access is on</source>
-        <translation>Acesso ativado</translation>
+        <translation>Acesso ligado</translation>
     </message>
     <message>
         <source>Listening on %1</source>
@@ -370,7 +370,7 @@
     </message>
     <message>
         <source>Copy the setup for the assistant you use. You only need one.</source>
-        <translation>Copie a configuração do assistente que você usa. Você só precisa de uma.</translation>
+        <translation>Copie a configuração do assistente que você usa. Só precisa de uma.</translation>
     </message>
     <message>
         <source>Copy for Cursor</source>
@@ -378,7 +378,7 @@
     </message>
     <message>
         <source>Copy a setup snippet to paste into Cursor</source>
-        <translation>Copiar trecho de configuração para colar no Cursor</translation>
+        <translation>Copia um trecho de configuração para colar no Cursor</translation>
     </message>
     <message>
         <source>Copied for Cursor</source>
@@ -390,7 +390,7 @@
     </message>
     <message>
         <source>Copy a command to paste into Claude Code</source>
-        <translation>Copiar comando para colar no Claude Code</translation>
+        <translation>Copia um comando para colar no Claude Code</translation>
     </message>
     <message>
         <source>Copied for Claude</source>
@@ -398,15 +398,15 @@
     </message>
     <message>
         <source>Paste that into the assistant. To help it use this editor, copy the how-to next and paste it into the chat.</source>
-        <translation>Cole isso no assistente. Para ajudá-lo a usar este editor, copie o guia a seguir e cole no chat.</translation>
+        <translation>Cole isso no assistente. Para ajudá-lo a usar este editor, copie o guia a seguir e cole na conversa.</translation>
     </message>
     <message>
         <source>Copy a how-to for the agent</source>
-        <translation>Copiar guia para o agente</translation>
+        <translation>Copiar um guia para o agente</translation>
     </message>
     <message>
         <source>A short list of what the agent can do here — paste it into the chat</source>
-        <translation>Uma breve lista do que o agente pode fazer aqui — cole no chat</translation>
+        <translation>Uma lista curta do que o agente pode fazer aqui — cole na conversa</translation>
     </message>
     <message>
         <source>Copied how-to</source>
@@ -418,19 +418,19 @@
     </message>
     <message>
         <source>For a different assistant, copy a one-time setup. The address and key are already in the Cursor and Claude copies above.</source>
-        <translation>Para um assistente diferente, copie a configuração única. O endereço e a chave já estão nas cópias do Cursor e Claude acima.</translation>
+        <translation>Para outro assistente, copie a configuração avulsa. O endereço e a chave já estão nas cópias do Cursor e do Claude acima.</translation>
     </message>
     <message>
         <source>Copy one-time setup</source>
-        <translation>Copiar configuração única</translation>
+        <translation>Copiar configuração avulsa</translation>
     </message>
     <message>
         <source>Add this once to the assistant’s config. Access still has to be turned on here.</source>
-        <translation>Adicione isso uma vez à configuração do assistente. O acesso ainda precisa ser ativado aqui.</translation>
+        <translation>Adicione isto uma vez na configuração do assistente. O acesso ainda precisa ser ligado aqui.</translation>
     </message>
     <message>
         <source>Copied one-time setup</source>
-        <translation>Configuração única copiada</translation>
+        <translation>Configuração avulsa copiada</translation>
     </message>
     <message>
         <source>Start agent on startup</source>
@@ -476,7 +476,7 @@
     </message>
     <message>
         <source>Stock photos, video and audio</source>
-        <translation>Fotos, vídeos e áudios de estoque</translation>
+        <translation>Fotos, vídeos e áudios de banco</translation>
     </message>
     <message>
         <source>Text</source>
@@ -516,7 +516,7 @@
     </message>
     <message>
         <source>Saved stacks of effects to drop on a clip</source>
-        <translation>Pilhas de efeitos salvas para soltar em um clipe</translation>
+        <translation>Conjuntos de efeitos salvos para soltar num clipe</translation>
     </message>
     <message>
         <source>Scenes</source>
@@ -524,7 +524,7 @@
     </message>
     <message>
         <source>Jump between the sections of this edit</source>
-        <translation>Pule entre as seções desta edição</translation>
+        <translation>Pule entre as partes desta edição</translation>
     </message>
     <message>
         <source>Masks</source>
@@ -532,7 +532,7 @@
     </message>
     <message>
         <source>Cut a shape or a subject out of the selected clip</source>
-        <translation>Recorte uma forma ou um assunto do clipe selecionado</translation>
+        <translation>Recorte uma forma ou um objeto do clipe selecionado</translation>
     </message>
     <message>
         <source>Transform layer</source>
@@ -563,7 +563,7 @@
     </message>
     <message>
         <source>Tap a clip to edit it</source>
-        <translation>Toque em um clipe para editá-lo</translation>
+        <translation>Toque num clipe para editá-lo</translation>
     </message>
     <message>
         <source>Add to timeline</source>
@@ -637,7 +637,7 @@
     </message>
     <message>
         <source>Tap a clip to edit</source>
-        <translation>Toque em um clipe para editar</translation>
+        <translation>Toque num clipe para editar</translation>
     </message>
 </context>
 <context>
@@ -667,7 +667,7 @@
     </message>
     <message>
         <source>Nothing downloading right now.</source>
-        <translation>Nada sendo baixado no momento.</translation>
+        <translation>Nada sendo baixado agora.</translation>
     </message>
     <message>
         <source>Cancel download</source>
@@ -675,7 +675,7 @@
     </message>
     <message>
         <source>Try again</source>
-        <translation>Tentar novamente</translation>
+        <translation>Tentar de novo</translation>
     </message>
     <message>
         <source>Clear finished</source>
@@ -694,11 +694,11 @@
     </message>
     <message>
         <source>Save Project As</source>
-        <translation>Salvar projeto como</translation>
+        <translation>Salvar Projeto Como</translation>
     </message>
     <message>
         <source>%1 copy</source>
-        <translation>Cópia de %1</translation>
+        <translation>cópia de %1</translation>
     </message>
     <message>
         <source>Save Shareable Copy</source>
@@ -706,7 +706,7 @@
     </message>
     <message>
         <source>Open Project</source>
-        <translation>Abrir projeto</translation>
+        <translation>Abrir Projeto</translation>
     </message>
     <message>
         <source>Your timeline is empty</source>
@@ -726,7 +726,7 @@
     </message>
     <message>
         <source>Done</source>
-        <translation>Concluir</translation>
+        <translation>Pronto</translation>
     </message>
 </context>
 <context>
@@ -791,11 +791,11 @@
     <name>AndroidLayoutSheet</name>
     <message>
         <source>Canvas &amp; layout</source>
-        <translation>Tela e layout</translation>
+        <translation>Tela &amp; disposição</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Personalizada</translation>
+        <translation>Personalizado</translation>
     </message>
     <message>
         <source>Template</source>
@@ -823,7 +823,7 @@
     </message>
     <message>
         <source>Done</source>
-        <translation>Concluir</translation>
+        <translation>Pronto</translation>
     </message>
 </context>
 <context>
@@ -846,7 +846,7 @@
     </message>
     <message>
         <source>No source in the marketplace can open links.</source>
-        <translation>Nenhuma fonte no mercado pode abrir links.</translation>
+        <translation>Nenhuma fonte do mercado consegue abrir links.</translation>
     </message>
     <message>
         <source>That source didn’t recognise this link.</source>
@@ -862,15 +862,15 @@
     </message>
     <message>
         <source>Asking that source…</source>
-        <translation>Consultando essa fonte…</translation>
+        <translation>Consultando a fonte…</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Tentar novamente</translation>
+        <translation>Tentar de novo</translation>
     </message>
     <message>
         <source>Pick another source</source>
-        <translation>Escolha outra fonte</translation>
+        <translation>Escolher outra fonte</translation>
     </message>
     <message>
         <source>Open in browser</source>
@@ -897,19 +897,19 @@
     </message>
     <message>
         <source>Canvas set to %1×%2 at %3 fps from your first clip.</source>
-        <translation>Tela definida como %1×%2 a %3 fps a partir do seu primeiro clipe.</translation>
+        <translation>Tela definida em %1×%2 a %3 fps a partir do seu primeiro clipe.</translation>
     </message>
     <message>
         <source>That share had no link in it.</source>
-        <translation>Esse compartilhamento não continha nenhum link.</translation>
+        <translation>Esse compartilhamento não tinha link.</translation>
     </message>
     <message>
         <source>Links can’t be opened in this build.</source>
-        <translation>Não é possível abrir links nesta versão.</translation>
+        <translation>Links não podem ser abertos nesta versão.</translation>
     </message>
     <message>
         <source>That download is no longer in your media.</source>
-        <translation>Esse download não está mais na sua mídia.</translation>
+        <translation>Esse download não está mais nas suas mídias.</translation>
     </message>
     <message>
         <source>Open Project</source>
@@ -1010,7 +1010,7 @@
     </message>
     <message>
         <source>Debug info</source>
-        <translation>Informações de depuração</translation>
+        <translation>Informações de diagnóstico</translation>
     </message>
 </context>
 <context>
@@ -1300,7 +1300,7 @@
     </message>
     <message>
         <source>Trim &amp; timing</source>
-        <translation>Aparo e tempo</translation>
+        <translation>Aparar &amp; tempo</translation>
     </message>
     <message>
         <source>Split all tracks</source>
@@ -1316,7 +1316,7 @@
     </message>
     <message>
         <source>Drop everything before the playhead</source>
-        <translation>Descarte tudo antes do cursor de reprodução</translation>
+        <translation>Descarta tudo antes do cursor</translation>
     </message>
     <message>
         <source>Trim end</source>
@@ -1324,7 +1324,7 @@
     </message>
     <message>
         <source>Drop everything after the playhead</source>
-        <translation>Descarte tudo depois do cursor de reprodução</translation>
+        <translation>Descarta tudo depois do cursor</translation>
     </message>
     <message>
         <source>Speed</source>
@@ -1332,7 +1332,7 @@
     </message>
     <message>
         <source>Change how fast this clip plays</source>
-        <translation>Altere a velocidade de reprodução deste clipe</translation>
+        <translation>Muda a velocidade de reprodução deste clipe</translation>
     </message>
     <message>
         <source>Freeze frame</source>
@@ -1340,7 +1340,7 @@
     </message>
     <message>
         <source>Freeze frame at current time</source>
-        <translation>Congelar quadro no tempo atual</translation>
+        <translation>Congela o quadro no tempo atual</translation>
     </message>
     <message>
         <source>Merge</source>
@@ -1348,7 +1348,7 @@
     </message>
     <message>
         <source>Merge adjacent clips</source>
-        <translation>Mesclar clipes adjacentes</translation>
+        <translation>Mescla clipes vizinhos</translation>
     </message>
     <message>
         <source>Close gap</source>
@@ -1356,7 +1356,7 @@
     </message>
     <message>
         <source>Close gap after clip</source>
-        <translation>Fechar espaço após o clipe</translation>
+        <translation>Fecha o espaço depois do clipe</translation>
     </message>
     <message>
         <source>Audio</source>
@@ -1368,7 +1368,7 @@
     </message>
     <message>
         <source>Separate audio from video</source>
-        <translation>Separar áudio do vídeo</translation>
+        <translation>Separa o áudio do vídeo</translation>
     </message>
     <message>
         <source>Timeline</source>
@@ -1376,19 +1376,19 @@
     </message>
     <message>
         <source>Snapping</source>
-        <translation>Ajuste magnético</translation>
+        <translation>Encaixe</translation>
     </message>
     <message>
         <source>Line clip edges up with cuts and markers</source>
-        <translation>Alinhe as bordas dos clipes com cortes e marcadores</translation>
+        <translation>Alinha as bordas dos clipes com cortes e marcadores</translation>
     </message>
     <message>
         <source>Ripple</source>
-        <translation>Propagação</translation>
+        <translation>Ondulação</translation>
     </message>
     <message>
         <source>Close gaps when trimming</source>
-        <translation>Fechar espaços ao aparar</translation>
+        <translation>Fecha os espaços ao aparar</translation>
     </message>
     <message>
         <source>Overlap</source>
@@ -1404,11 +1404,11 @@
     </message>
     <message>
         <source>Find the beat and show markers</source>
-        <translation>Encontrar a batida e mostrar marcadores</translation>
+        <translation>Encontra a batida e mostra marcadores</translation>
     </message>
     <message>
         <source>Markers &amp; view</source>
-        <translation>Marcadores e exibição</translation>
+        <translation>Marcadores &amp; visualização</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -1416,7 +1416,7 @@
     </message>
     <message>
         <source>Paste at current time</source>
-        <translation>Colar no tempo atual</translation>
+        <translation>Cola no tempo atual</translation>
     </message>
     <message>
         <source>Bookmark</source>
@@ -1424,23 +1424,23 @@
     </message>
     <message>
         <source>Add or remove a bookmark here</source>
-        <translation>Adicionar ou remover um marcador aqui</translation>
+        <translation>Adiciona ou remove um marcador aqui</translation>
     </message>
     <message>
         <source>Work area in</source>
-        <translation>Entrada da área de trabalho</translation>
+        <translation>Início da área de trabalho</translation>
     </message>
     <message>
         <source>Mark work area in at current time</source>
-        <translation>Marcar entrada da área de trabalho no tempo atual</translation>
+        <translation>Marca o início da área de trabalho no tempo atual</translation>
     </message>
     <message>
         <source>Work area out</source>
-        <translation>Saída da área de trabalho</translation>
+        <translation>Fim da área de trabalho</translation>
     </message>
     <message>
         <source>Mark work area out at current time</source>
-        <translation>Marcar saída da área de trabalho no tempo atual</translation>
+        <translation>Marca o fim da área de trabalho no tempo atual</translation>
     </message>
     <message>
         <source>Clear work area</source>
@@ -1471,7 +1471,7 @@
     </message>
     <message>
         <source>GPU preview unavailable</source>
-        <translation>Pré-visualização por GPU indisponível</translation>
+        <translation>Pré-visualização por placa de vídeo indisponível</translation>
     </message>
     <message>
         <source>Full</source>
@@ -1558,7 +1558,7 @@
     </message>
     <message>
         <source>Render the finished video</source>
-        <translation>Renderize o vídeo finalizado</translation>
+        <translation>Renderiza o vídeo finalizado</translation>
     </message>
     <message>
         <source>Save</source>
@@ -1566,7 +1566,7 @@
     </message>
     <message>
         <source>Keep this project on the device</source>
-        <translation>Mantenha este projeto no dispositivo</translation>
+        <translation>Guarda este projeto no computador</translation>
     </message>
     <message>
         <source>Save as</source>
@@ -1574,7 +1574,7 @@
     </message>
     <message>
         <source>Keep the original and carry on in a copy</source>
-        <translation>Mantenha o original e continue em uma cópia</translation>
+        <translation>Mantém o original e continua numa cópia</translation>
     </message>
     <message>
         <source>Share a copy</source>
@@ -1582,23 +1582,23 @@
     </message>
     <message>
         <source>One file with the media packed inside</source>
-        <translation>Um arquivo com a mídia empacotada dentro</translation>
+        <translation>Um arquivo único com as mídias dentro</translation>
     </message>
     <message>
         <source>Canvas &amp; layout</source>
-        <translation>Tela e layout</translation>
+        <translation>Tela &amp; disposição</translation>
     </message>
     <message>
         <source>Video size, aspect and frame rate</source>
-        <translation>Tamanho do vídeo, proporção e taxa de quadros</translation>
+        <translation>Tamanho, proporção e quadros por segundo do vídeo</translation>
     </message>
     <message>
         <source>Crop video size</source>
-        <translation>Recortar tamanho do vídeo</translation>
+        <translation>Recortar o tamanho do vídeo</translation>
     </message>
     <message>
         <source>Drag the preview edges to change what’s included</source>
-        <translation>Arraste as bordas da pré-visualização para alterar o que está incluído</translation>
+        <translation>Arraste as bordas da pré-visualização para mudar o que entra</translation>
     </message>
     <message>
         <source>Project properties</source>
@@ -1614,15 +1614,15 @@
     </message>
     <message>
         <source>Sync and switch between angles</source>
-        <translation>Sincronize e alterne entre ângulos</translation>
+        <translation>Sincroniza e alterna entre ângulos</translation>
     </message>
     <message>
         <source>App settings</source>
-        <translation>Configurações do app</translation>
+        <translation>Configurações do aplicativo</translation>
     </message>
     <message>
         <source>Appearance, extras and agent access</source>
-        <translation>Aparência, extras e acesso de agente</translation>
+        <translation>Aparência, extras e acesso do agente</translation>
     </message>
 </context>
 <context>
@@ -1633,7 +1633,7 @@
     </message>
     <message>
         <source>Pick a clip, start now</source>
-        <translation>Escolha um clipe, comece agora</translation>
+        <translation>Escolha um clipe e comece agora</translation>
     </message>
     <message>
         <source>New project</source>
@@ -1641,11 +1641,11 @@
     </message>
     <message>
         <source>Choose a canvas, start empty</source>
-        <translation>Escolha uma tela, comece em branco</translation>
+        <translation>Escolha uma tela e comece do zero</translation>
     </message>
     <message>
         <source>Create polished videos fast</source>
-        <translation>Crie vídeos profissionais rapidamente</translation>
+        <translation>Crie vídeos caprichados rapidamente</translation>
     </message>
     <message>
         <source>Recent projects</source>
@@ -1657,11 +1657,11 @@
     </message>
     <message>
         <source>Open a project from this device</source>
-        <translation>Abra um projeto deste dispositivo</translation>
+        <translation>Abre um projeto deste computador</translation>
     </message>
     <message>
         <source>Nothing here yet — projects you save will show up in this list.</source>
-        <translation>Nada aqui ainda — os projetos que você salvar aparecerão nesta lista.</translation>
+        <translation>Nada aqui ainda — os projetos que você salvar aparecem nesta lista.</translation>
     </message>
     <message>
         <source>Untitled</source>
@@ -1692,7 +1692,7 @@
     </message>
     <message>
         <source>Import at the playhead and stay here</source>
-        <translation>Importar no cursor de reprodução e permanecer aqui</translation>
+        <translation>Importa no cursor e permanece aqui</translation>
     </message>
     <message>
         <source>New quick edit</source>
@@ -1700,7 +1700,7 @@
     </message>
     <message>
         <source>Start a new project from this clip</source>
-        <translation>Iniciar um novo projeto a partir deste clipe</translation>
+        <translation>Começa um projeto novo a partir deste clipe</translation>
     </message>
 </context>
 <context>
@@ -1869,7 +1869,7 @@
     </message>
     <message>
         <source>Show export progress</source>
-        <translation>Mostrar progresso da exportação</translation>
+        <translation>Mostrar o progresso da exportação</translation>
     </message>
 </context>
 <context>
@@ -1998,7 +1998,7 @@
     </message>
     <message>
         <source>Letter and word animations live in the Text tab, under Animate. This moves the whole clip.</source>
-        <translation>As animações de letras e palavras ficam na aba Texto, em Animar. Isso move o clipe inteiro.</translation>
+        <translation>As animações de letra e palavra ficam na aba Texto, em Animar. Esta move o clipe inteiro.</translation>
     </message>
 </context>
 <context>
@@ -2165,7 +2165,7 @@
     </message>
     <message>
         <source>Faster preview takes effect after you restart Drift.</source>
-        <translation>A pré-visualização mais rápida entra em vigor após reiniciar o Drift.</translation>
+        <translation>A pré-visualização mais rápida entra em vigor depois de reiniciar o Drift.</translation>
     </message>
     <message>
         <source>System default</source>
@@ -2669,7 +2669,7 @@
     </message>
     <message>
         <source>Your graphics driver is too old for the preview, which needs OpenGL 3.3. See Help → Debug info.</source>
-        <translation>Seu driver de vídeo é muito antigo para a pré-visualização, que precisa de OpenGL 3.3. Consulte Ajuda → Informações de depuração.</translation>
+        <translation>O driver da sua placa de vídeo é antigo demais para a pré-visualização, que precisa de OpenGL 3.3. Veja Ajuda → Informações de diagnóstico.</translation>
     </message>
     <message>
         <source>Could not create a proxy for %1: %2</source>
@@ -2677,11 +2677,11 @@
     </message>
     <message>
         <source>Your graphics driver only provides %1; the preview needs OpenGL 3.3. See Help → Debug info.</source>
-        <translation>Seu driver de vídeo fornece apenas %1; a pré-visualização precisa de OpenGL 3.3. Consulte Ajuda → Informações de depuração.</translation>
+        <translation>O driver da sua placa de vídeo oferece apenas %1; a pré-visualização precisa de OpenGL 3.3. Veja Ajuda → Informações de diagnóstico.</translation>
     </message>
     <message>
         <source>GPU preview rendering is unavailable on this machine. See Help → Debug info.</source>
-        <translation>A renderização da pré-visualização por GPU não está disponível nesta máquina. Consulte Ajuda → Informações de depuração.</translation>
+        <translation>A pré-visualização pela placa de vídeo não está disponível neste computador. Veja Ajuda → Informações de diagnóstico.</translation>
     </message>
     <message>
         <source>Media rotated</source>
@@ -2701,7 +2701,7 @@
     </message>
     <message>
         <source>Trim saved</source>
-        <translation>Aparo salvo</translation>
+        <translation>Corte salvo</translation>
     </message>
     <message>
         <source>Saving…</source>
@@ -2741,11 +2741,11 @@
     </message>
     <message>
         <source>Go to previous cut point</source>
-        <translation>Ir para o ponto de corte anterior</translation>
+        <translation>Ir para o corte anterior</translation>
     </message>
     <message>
         <source>Go to next cut point</source>
-        <translation>Ir para o próximo ponto de corte</translation>
+        <translation>Ir para o próximo corte</translation>
     </message>
     <message>
         <source>Step back one frame</source>
@@ -2777,31 +2777,31 @@
     </message>
     <message>
         <source>Delete left of the playhead</source>
-        <translation>Excluir à esquerda do cursor de reprodução</translation>
+        <translation>Excluir à esquerda do cursor</translation>
     </message>
     <message>
         <source>Delete right of the playhead</source>
-        <translation>Excluir à direita do cursor de reprodução</translation>
+        <translation>Excluir à direita do cursor</translation>
     </message>
     <message>
         <source>Increase playback speed</source>
-        <translation>Aumentar velocidade de reprodução</translation>
+        <translation>Aumentar a velocidade de reprodução</translation>
     </message>
     <message>
         <source>Decrease playback speed</source>
-        <translation>Diminuir velocidade de reprodução</translation>
+        <translation>Diminuir a velocidade de reprodução</translation>
     </message>
     <message>
         <source>Zoom in</source>
-        <translation>Ampliar</translation>
+        <translation>Aproximar</translation>
     </message>
     <message>
         <source>Zoom out</source>
-        <translation>Reduzir</translation>
+        <translation>Afastar</translation>
     </message>
     <message>
         <source>The graphics card choice takes effect after you restart Drift.</source>
-        <translation>A escolha da placa de vídeo entra em vigor após reiniciar o Drift.</translation>
+        <translation>A escolha da placa de vídeo entra em vigor depois de reiniciar o Drift.</translation>
     </message>
     <message>
         <source>No audio track available for recording</source>
@@ -2869,11 +2869,11 @@
     </message>
     <message>
         <source>Transition curve</source>
-        <translation>Curva de transição</translation>
+        <translation>Curva da transição</translation>
     </message>
     <message>
         <source>Transition curve updated</source>
-        <translation>Curva de transição atualizada</translation>
+        <translation>Curva da transição atualizada</translation>
     </message>
     <message>
         <source>That transition is gone — open the custom curve again</source>
@@ -3029,7 +3029,7 @@
     </message>
     <message>
         <source>Detach adjustment to its own track</source>
-        <translation>Separar ajuste para sua própria faixa</translation>
+        <translation>Separar o ajuste em uma faixa própria</translation>
     </message>
     <message>
         <source>Adjustment detached</source>
@@ -3057,7 +3057,7 @@
     </message>
     <message>
         <source>Frame rate</source>
-        <translation>Taxa de quadros</translation>
+        <translation>Quadros por segundo</translation>
     </message>
     <message>
         <source>Project setup</source>
@@ -3293,11 +3293,11 @@
     </message>
     <message>
         <source>Pan changed</source>
-        <translation>Pan alterado</translation>
+        <translation>Panorâmica alterada</translation>
     </message>
     <message>
         <source>Clip pan updated</source>
-        <translation>Pan do clipe atualizado</translation>
+        <translation>Panorâmica do clipe atualizada</translation>
     </message>
     <message>
         <source>Rotation snapped</source>
@@ -3365,7 +3365,7 @@
     </message>
     <message>
         <source>Change audio track</source>
-        <translation>Alterar faixa de áudio</translation>
+        <translation>Mudar a faixa de áudio</translation>
     </message>
     <message>
         <source>Clips unlinked</source>
@@ -3433,19 +3433,19 @@
     </message>
     <message>
         <source>Animation options</source>
-        <translation>Opções de animação</translation>
+        <translation>Opções da animação</translation>
     </message>
     <message>
         <source>Animation options updated</source>
-        <translation>Opções de animação atualizadas</translation>
+        <translation>Opções da animação atualizadas</translation>
     </message>
     <message>
         <source>Animation slot</source>
-        <translation>Slot de animação</translation>
+        <translation>Espaço de animação</translation>
     </message>
     <message>
         <source>Animation slot updated</source>
-        <translation>Slot de animação atualizado</translation>
+        <translation>Espaço de animação atualizado</translation>
     </message>
     <message>
         <source>Clip mask updated</source>
@@ -3485,11 +3485,11 @@
     </message>
     <message>
         <source>Add mask point</source>
-        <translation>Adicionar ponto da máscara</translation>
+        <translation>Adicionar ponto à máscara</translation>
     </message>
     <message>
         <source>Mask point added</source>
-        <translation>Ponto da máscara adicionado</translation>
+        <translation>Ponto adicionado à máscara</translation>
     </message>
     <message>
         <source>Remove mask point</source>
@@ -3497,7 +3497,7 @@
     </message>
     <message>
         <source>Mask point removed</source>
-        <translation>Ponto da máscara removido</translation>
+        <translation>Ponto removido da máscara</translation>
     </message>
     <message>
         <source>That transition has no sound; audio tracks take crossfade or dip</source>
@@ -4116,11 +4116,11 @@
     </message>
     <message>
         <source>Pasted effects use “%1”, which isn’t installed — it won’t show. Open Extras to install it.</source>
-        <translation>Os efeitos colados usam “%1”, que não está instalado — ele não vai aparecer. Abra Extras para instalar.</translation>
+        <translation>Os efeitos colados usam “%1”, que não está instalado — não vai aparecer. Abra os Extras para instalar.</translation>
     </message>
     <message>
         <source>Pasted effects use %1 packs that aren’t installed — they won’t show. Open Extras to install them.</source>
-        <translation>Os efeitos colados usam %1 pacotes que não estão instalados — eles não vão aparecer. Abra Extras para instalá-los.</translation>
+        <translation>Os efeitos colados usam %1 pacotes que não estão instalados — não vão aparecer. Abra os Extras para instalá-los.</translation>
     </message>
     <message>
         <source>There are no effects to save</source>
@@ -4319,7 +4319,7 @@
     </message>
     <message>
         <source>Failed to open Premiere Pro project</source>
-        <translation>Falha ao abrir o projeto do Premiere Pro</translation>
+        <translation>Não foi possível abrir o projeto do Premiere Pro</translation>
     </message>
     <message>
         <source>Premiere Pro project imported: %1</source>
@@ -4327,15 +4327,15 @@
     </message>
     <message>
         <source>That template location isn’t valid</source>
-        <translation>Esse local de modelo não é válido</translation>
+        <translation>O local desse modelo não é válido</translation>
     </message>
     <message>
         <source>Failed to unpack Motion Graphics Template</source>
-        <translation>Falha ao descompactar o Motion Graphics Template</translation>
+        <translation>Não foi possível descompactar o Modelo de Motion Graphics</translation>
     </message>
     <message>
         <source>Failed to apply template to project</source>
-        <translation>Falha ao aplicar o modelo ao projeto</translation>
+        <translation>Não foi possível aplicar o modelo ao projeto</translation>
     </message>
     <message>
         <source>Import template: %1</source>
@@ -4347,7 +4347,7 @@
     </message>
     <message>
         <source>Failed to open Kdenlive / MLT project</source>
-        <translation>Falha ao abrir o projeto do Kdenlive / MLT</translation>
+        <translation>Não foi possível abrir o projeto do Kdenlive / MLT</translation>
     </message>
     <message>
         <source>Kdenlive project imported: %1</source>
@@ -4355,7 +4355,7 @@
     </message>
     <message>
         <source>Failed to open DaVinci Resolve project / timeline</source>
-        <translation>Falha ao abrir o projeto / linha do tempo do DaVinci Resolve</translation>
+        <translation>Não foi possível abrir o projeto / linha do tempo do DaVinci Resolve</translation>
     </message>
     <message>
         <source>DaVinci Resolve project imported: %1</source>
@@ -4363,7 +4363,7 @@
     </message>
     <message>
         <source>Failed to open Edit Decision List (.edl)</source>
-        <translation>Falha ao abrir Edit Decision List (.edl)</translation>
+        <translation>Não foi possível abrir a Lista de Decisões de Edição (.edl)</translation>
     </message>
     <message>
         <source>EDL imported: %1</source>
@@ -4371,11 +4371,11 @@
     </message>
     <message>
         <source>Failed to open OpenTimelineIO (.otio) sequence</source>
-        <translation>Falha ao abrir a sequência do OpenTimelineIO (.otio)</translation>
+        <translation>Não foi possível abrir a sequência OpenTimelineIO (.otio)</translation>
     </message>
     <message>
         <source>OpenTimelineIO imported: %1</source>
-        <translation>OpenTimelineIO importado: %1</translation>
+        <translation>OpenTimelineIO importada: %1</translation>
     </message>
     <message>
         <source>That folder isn’t valid</source>
@@ -4410,11 +4410,11 @@
     </message>
     <message>
         <source>Opening your video…</source>
-        <translation>Abrindo seu vídeo…</translation>
+        <translation>Abrindo o seu vídeo…</translation>
     </message>
     <message>
         <source>Nothing on this device can play that file</source>
-        <translation>Nada neste dispositivo pode reproduzir esse arquivo</translation>
+        <translation>Nada neste computador consegue reproduzir esse arquivo</translation>
     </message>
     <message>
         <source>Getting your video ready to share…</source>
@@ -4490,7 +4490,7 @@
     </message>
     <message>
         <source>Light</source>
-        <translation>Luz</translation>
+        <translation>Claro</translation>
     </message>
     <message>
         <source>Colour</source>
@@ -4502,23 +4502,23 @@
     </message>
     <message>
         <source>Imported</source>
-        <translation>Importados</translation>
+        <translation>Importado</translation>
     </message>
     <message>
         <source>Apply text look</source>
-        <translation>Aplicar visual de texto</translation>
+        <translation>Aplicar estilo de texto</translation>
     </message>
     <message>
         <source>Look applied</source>
-        <translation>Visual aplicado</translation>
+        <translation>Estilo aplicado</translation>
     </message>
     <message>
         <source>Adjust text look</source>
-        <translation>Ajustar visual de texto</translation>
+        <translation>Ajustar o estilo do texto</translation>
     </message>
     <message>
         <source>Look updated</source>
-        <translation>Visual atualizado</translation>
+        <translation>Estilo atualizado</translation>
     </message>
     <message>
         <source>Apply caption style</source>
@@ -4671,7 +4671,7 @@
     </message>
     <message>
         <source>Clip orientation set to %1°</source>
-        <translation>Orientação do clipe definida para %1°</translation>
+        <translation>Orientação do clipe definida em %1°</translation>
     </message>
 </context>
 <context>
@@ -4827,15 +4827,15 @@
     <message numerus="yes">
         <source>Imported %n files into %1 folders — as many as one folder import takes. Import the remaining subfolders separately.</source>
         <translation>
-            <numerusform>Importado %n arquivo em %1 pastas — o máximo que uma importação de pasta aceita. Importe as subpastas restantes separadamente.</numerusform>
-            <numerusform>Importados %n arquivos em %1 pastas — o máximo que uma importação de pasta aceita. Importe as subpastas restantes separadamente.</numerusform>
+            <numerusform>Importado %n arquivo em %1 pastas — o máximo que cabe numa importação de pasta. Importe as subpastas restantes separadamente.</numerusform>
+            <numerusform>Importados %n arquivos em %1 pastas — o máximo que cabe numa importação de pasta. Importe as subpastas restantes separadamente.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Imported %n files into %1 folders. %2 files were skipped — Drift does not recognize their format. Drag them onto the bin to try anyway.</source>
         <translation>
-            <numerusform>Importado %n arquivo em %1 pastas. %2 arquivos foram ignorados — o Drift não reconhece o formato deles. Arraste-os para o compartimento para tentar mesmo assim.</numerusform>
-            <numerusform>Importados %n arquivos em %1 pastas. %2 arquivos foram ignorados — o Drift não reconhece o formato deles. Arraste-os para o compartimento para tentar mesmo assim.</numerusform>
+            <numerusform>Importado %n arquivo em %1 pastas. %2 arquivos foram pulados — o Drift não reconhece o formato deles. Arraste-os para a biblioteca para tentar mesmo assim.</numerusform>
+            <numerusform>Importados %n arquivos em %1 pastas. %2 arquivos foram pulados — o Drift não reconhece o formato deles. Arraste-os para a biblioteca para tentar mesmo assim.</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -4851,7 +4851,7 @@
     </message>
     <message>
         <source>Import Folder</source>
-        <translation>Importar pasta</translation>
+        <translation>Importar Pasta</translation>
     </message>
     <message>
         <source>Collect Media to Folder</source>
@@ -4931,11 +4931,11 @@
     </message>
     <message>
         <source>Import Files…</source>
-        <translation>Importar arquivos…</translation>
+        <translation>Importar Arquivos…</translation>
     </message>
     <message>
         <source>Import Folder…</source>
-        <translation>Importar pasta…</translation>
+        <translation>Importar Pasta…</translation>
     </message>
     <message>
         <source>Collect Media to Folder…</source>
@@ -5686,15 +5686,15 @@
     </message>
     <message>
         <source>Delivered well above displayed means frames are being produced that the display never shows — a cadence problem rather than a slow machine.</source>
-        <translation>Delivered bem acima de displayed significa que estão sendo produzidos quadros que a tela nunca exibe — um problema de cadência em vez de uma máquina lenta.</translation>
+        <translation>Entregues bem acima dos exibidos significa que estão sendo produzidos quadros que a tela nunca mostra — é um problema de cadência, não de máquina lenta.</translation>
     </message>
     <message>
         <source>Show live stats on the preview</source>
-        <translation>Mostrar estatísticas em tempo real na pré-visualização</translation>
+        <translation>Mostrar estatísticas ao vivo na pré-visualização</translation>
     </message>
     <message>
         <source>Stays on after this dialog closes, so you can watch the numbers while the timeline plays.</source>
-        <translation>Continua ativo depois que esta caixa de diálogo é fechada, para que você possa acompanhar os números enquanto a linha do tempo é reproduzida.</translation>
+        <translation>Continua ligado depois de fechar esta janela, para você acompanhar os números enquanto a linha do tempo toca.</translation>
     </message>
     <message>
         <source>Where the time goes</source>
@@ -5702,7 +5702,7 @@
     </message>
     <message>
         <source>Decodes a fixed 1080p60 clip, and the first clip on the timeline, through each stage of the preview. Takes a few seconds.</source>
-        <translation>Decodifica um clipe fixo em 1080p60 e o primeiro clipe na linha do tempo por cada estágio da pré-visualização. Leva alguns segundos.</translation>
+        <translation>Decodifica um clipe fixo de 1080p60, e o primeiro clipe da linha do tempo, por cada etapa da pré-visualização. Leva alguns segundos.</translation>
     </message>
     <message>
         <source>Measuring…</source>
@@ -5710,7 +5710,7 @@
     </message>
     <message>
         <source>Run test</source>
-        <translation>Executar teste</translation>
+        <translation>Rodar teste</translation>
     </message>
     <message>
         <source>Reference clip (1080p60)</source>
@@ -5738,7 +5738,7 @@
     </message>
     <message>
         <source>Preview upload</source>
-        <translation>Upload da pré-visualização</translation>
+        <translation>Envio para a pré-visualização</translation>
     </message>
     <message>
         <source>Decode</source>
@@ -5746,11 +5746,11 @@
     </message>
     <message>
         <source>Readback to CPU costs</source>
-        <translation>Custos de readback para a CPU</translation>
+        <translation>Custo da leitura de volta para o processador</translation>
     </message>
     <message>
         <source>Compositing costs</source>
-        <translation>Custos de composição</translation>
+        <translation>Custo da composição</translation>
     </message>
     <message>
         <source>Total per frame</source>
@@ -5758,15 +5758,15 @@
     </message>
     <message>
         <source>Budget at this frame rate</source>
-        <translation>Limite nesta taxa de quadros</translation>
+        <translation>Orçamento nesta taxa de quadros</translation>
     </message>
     <message>
         <source>Findings</source>
-        <translation>Resultados</translation>
+        <translation>Achados</translation>
     </message>
     <message>
         <source>Nothing stood out. Turn on the live stats above, play the timeline for a few seconds, then reopen this.</source>
-        <translation>Nada chamou a atenção. Ative as estatísticas em tempo real acima, reproduza a linha do tempo por alguns segundos e depois reabra isto.</translation>
+        <translation>Nada chamou atenção. Ligue as estatísticas ao vivo acima, toque a linha do tempo por alguns segundos e abra isto de novo.</translation>
     </message>
     <message>
         <source>Need help? Copy the report above when you file an issue.</source>
@@ -5876,15 +5876,15 @@
     <message numerus="yes">
         <source>%n second(s) left</source>
         <translation>
-            <numerusform>%n segundo restante</numerusform>
-            <numerusform>%n segundos restantes</numerusform>
+            <numerusform>resta %n segundo</numerusform>
+            <numerusform>restam %n segundos</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%n minute(s) left</source>
         <translation>
-            <numerusform>%n minuto restante</numerusform>
-            <numerusform>%n minutos restantes</numerusform>
+            <numerusform>resta %n minuto</numerusform>
+            <numerusform>restam %n minutos</numerusform>
         </translation>
     </message>
     <message>
@@ -5893,15 +5893,15 @@
     </message>
     <message>
         <source>Waiting for a free slot</source>
-        <translation>Aguardando uma vaga disponível</translation>
+        <translation>Aguardando uma vaga livre</translation>
     </message>
     <message>
         <source>%1 · in the media bin</source>
-        <translation>%1 · no compartimento de mídia</translation>
+        <translation>%1 · na biblioteca de mídia</translation>
     </message>
     <message>
         <source>In the media bin</source>
-        <translation>No compartimento de mídia</translation>
+        <translation>Na biblioteca de mídia</translation>
     </message>
     <message>
         <source>%1 of %2</source>
@@ -5939,11 +5939,11 @@
     </message>
     <message>
         <source>Downloads from the Market tab show up here while they run.</source>
-        <translation>Os downloads da aba Mercado aparecem aqui enquanto estiverem em andamento.</translation>
+        <translation>Os downloads da aba Mercado aparecem aqui enquanto rodam.</translation>
     </message>
     <message>
         <source>Try again</source>
-        <translation>Tentar novamente</translation>
+        <translation>Tentar de novo</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -6196,11 +6196,11 @@
     </message>
     <message>
         <source>Save Project As</source>
-        <translation>Salvar projeto como</translation>
+        <translation>Salvar Projeto Como</translation>
     </message>
     <message>
         <source>%1 copy</source>
-        <translation>Cópia de %1</translation>
+        <translation>cópia de %1</translation>
     </message>
     <message>
         <source>Save Shareable Copy</source>
@@ -6279,7 +6279,7 @@
     </message>
     <message>
         <source>Debug info…</source>
-        <translation>Informações de depuração…</translation>
+        <translation>Informações de diagnóstico…</translation>
     </message>
     <message>
         <source>More settings…</source>
@@ -6374,7 +6374,7 @@
     </message>
     <message>
         <source>Click to add as adjustment layer, or drag onto a clip</source>
-        <translation>Clique para adicionar como camada de ajuste ou arraste para um clipe</translation>
+        <translation>Clique para adicionar como camada de ajuste, ou arraste sobre um clipe</translation>
     </message>
     <message>
         <source>Search effects</source>
@@ -6676,7 +6676,7 @@
     </message>
     <message>
         <source>These effects follow a face, so the clip has to be scanned before they do anything.</source>
-        <translation>Esses efeitos acompanham um rosto, então o clipe precisa ser analisado antes que eles façam qualquer coisa.</translation>
+        <translation>Estes efeitos seguem um rosto, então o clipe precisa ser analisado antes de eles fazerem alguma coisa.</translation>
     </message>
     <message>
         <source>Download depth estimation (about 160 MB)</source>
@@ -6684,11 +6684,11 @@
     </message>
     <message>
         <source>Face effects follow one clip&apos;s faces. Add this to a clip rather than to an adjustment layer.</source>
-        <translation>Efeitos de rosto acompanham os rostos de um clipe. Adicione isso a um clipe em vez de a uma camada de ajuste.</translation>
+        <translation>Os efeitos de rosto seguem os rostos de um clipe. Adicione isto a um clipe, não a uma camada de ajuste.</translation>
     </message>
     <message>
         <source>Scan for faces…</source>
-        <translation>Analisar rostos…</translation>
+        <translation>Procurar rostos…</translation>
     </message>
     <message>
         <source>Clear face track</source>
@@ -7302,7 +7302,7 @@
     </message>
     <message>
         <source>Points</source>
-        <translation>Pontas</translation>
+        <translation>Pontos</translation>
     </message>
     <message>
         <source>Bezier</source>
@@ -7318,7 +7318,7 @@
     </message>
     <message>
         <source>Ease</source>
-        <translation>Suave</translation>
+        <translation>Suavização</translation>
     </message>
     <message>
         <source>Natural</source>
@@ -7326,15 +7326,15 @@
     </message>
     <message>
         <source>Ease In</source>
-        <translation>Atenuação de entrada</translation>
+        <translation>Suavizar entrada</translation>
     </message>
     <message>
         <source>Ease Out</source>
-        <translation>Atenuação de saída</translation>
+        <translation>Suavizar saída</translation>
     </message>
     <message>
         <source>Drag the two handles to shape the cubic. The ends stay pinned, and handles are held inside the box so the curve cannot fold back on itself.</source>
-        <translation>Arraste as duas alças para moldar a curva cúbica. As extremidades permanecem fixas e as alças são mantidas dentro da caixa para que a curva não dobre sobre si mesma.</translation>
+        <translation>Arraste as duas alças para moldar a curva. As pontas ficam fixas, e as alças são mantidas dentro da caixa para a curva não dobrar sobre si mesma.</translation>
     </message>
     <message>
         <source>Drag the middle points to shape the ramp (ends stay silent→full). Double-click to add a point; Delete removes the selection.</source>
@@ -7521,11 +7521,11 @@
     </message>
     <message>
         <source>Move gradient stop</source>
-        <translation>Mover ponto do gradiente</translation>
+        <translation>Mover parada do degradê</translation>
     </message>
     <message>
         <source>Add a colour stop</source>
-        <translation>Adicionar ponto de cor</translation>
+        <translation>Adicionar uma parada de cor</translation>
     </message>
     <message>
         <source>Presets</source>
@@ -7557,7 +7557,7 @@
     </message>
     <message>
         <source>What one run of the gradient spans: the whole block, each line, word or glyph</source>
-        <translation>O que uma passagem do gradiente abrange: o bloco inteiro, cada linha, palavra ou glifo</translation>
+        <translation>O que uma passagem do degradê abrange: o bloco inteiro, cada linha, palavra ou letra</translation>
     </message>
     <message>
         <source>Block</source>
@@ -7573,11 +7573,11 @@
     </message>
     <message>
         <source>Glyph</source>
-        <translation>Glifo</translation>
+        <translation>Letra</translation>
     </message>
     <message>
         <source>Accent run</source>
-        <translation>Trecho de destaque</translation>
+        <translation>Passagem de destaque</translation>
     </message>
     <message>
         <source>Offset</source>
@@ -7589,7 +7589,7 @@
     </message>
     <message>
         <source>Slides the gradient along its axis, in cycles per second</source>
-        <translation>Desliza o gradiente ao longo do seu eixo, em ciclos por segundo</translation>
+        <translation>Desliza o degradê ao longo do eixo, em ciclos por segundo</translation>
     </message>
     <message>
         <source>Options</source>
@@ -7601,7 +7601,7 @@
     </message>
     <message>
         <source>Tile the gradient past its ends instead of clamping</source>
-        <translation>Ladrilha o gradiente além das suas extremidades em vez de fixá-lo</translation>
+        <translation>Repete o degradê além das pontas em vez de travar</translation>
     </message>
     <message>
         <source>OKLab</source>
@@ -7609,11 +7609,11 @@
     </message>
     <message>
         <source>Blend stops in OKLab for even, muddy-free transitions</source>
-        <translation>Mescla os pontos em OKLab para transições uniformes e sem tons turvos</translation>
+        <translation>Mistura as paradas em OKLab para transições uniformes e sem cor embarrada</translation>
     </message>
     <message>
         <source>Stop colour</source>
-        <translation>Cor do ponto</translation>
+        <translation>Cor da parada</translation>
     </message>
 </context>
 <context>
@@ -7848,11 +7848,11 @@
     </message>
     <message>
         <source>Mask X</source>
-        <translation>Máscara X</translation>
+        <translation>X da máscara</translation>
     </message>
     <message>
         <source>Mask Y</source>
-        <translation>Máscara Y</translation>
+        <translation>Y da máscara</translation>
     </message>
     <message>
         <source>Mask width</source>
@@ -7868,7 +7868,7 @@
     </message>
     <message>
         <source>Mask feather</source>
-        <translation>Difusão da máscara</translation>
+        <translation>Suavidade da máscara</translation>
     </message>
     <message>
         <source>Keyframes</source>
@@ -8028,35 +8028,35 @@
     </message>
     <message>
         <source>YT Video</source>
-        <translation>YT Vídeo</translation>
+        <translation>Vídeo do YT</translation>
     </message>
     <message>
         <source>YT Short</source>
-        <translation>YT Short</translation>
+        <translation>Short do YT</translation>
     </message>
     <message>
         <source>IG Reel</source>
-        <translation>IG Reel</translation>
+        <translation>Reel do IG</translation>
     </message>
     <message>
         <source>IG Story</source>
-        <translation>IG Story</translation>
+        <translation>Story do IG</translation>
     </message>
     <message>
         <source>IG Post</source>
-        <translation>IG Post</translation>
+        <translation>Post do IG</translation>
     </message>
     <message>
         <source>IG Feed</source>
-        <translation>IG Feed</translation>
+        <translation>Feed do IG</translation>
     </message>
     <message>
         <source>FB Reel</source>
-        <translation>FB Reel</translation>
+        <translation>Reel do FB</translation>
     </message>
     <message>
         <source>FB Video</source>
-        <translation>FB Vídeo</translation>
+        <translation>Vídeo do FB</translation>
     </message>
     <message>
         <source>FB Story</source>
@@ -8080,11 +8080,11 @@
     </message>
     <message>
         <source>Landscape</source>
-        <translation>Paisagem</translation>
+        <translation>Deitado</translation>
     </message>
     <message>
         <source>Portrait</source>
-        <translation>Retrato</translation>
+        <translation>Em pé</translation>
     </message>
     <message>
         <source>Classic</source>
@@ -8092,7 +8092,7 @@
     </message>
     <message>
         <source>Custom</source>
-        <translation>Personalizada</translation>
+        <translation>Personalizado</translation>
     </message>
     <message>
         <source>Any size</source>
@@ -8402,7 +8402,7 @@
     </message>
     <message>
         <source>Nothing is available from the marketplace right now.</source>
-        <translation>Nada está disponível no mercado no momento.</translation>
+        <translation>Nada disponível no mercado agora.</translation>
     </message>
     <message>
         <source>Downloading…</source>
@@ -8414,7 +8414,7 @@
     </message>
     <message>
         <source>The downloaded file did not match what the marketplace sent.</source>
-        <translation>O arquivo baixado não correspondeu ao que o mercado enviou.</translation>
+        <translation>O arquivo baixado não corresponde ao que o mercado enviou.</translation>
     </message>
     <message>
         <source>Importing…</source>
@@ -8426,7 +8426,7 @@
     </message>
     <message>
         <source>In the media bin</source>
-        <translation>No compartimento de mídia</translation>
+        <translation>Na biblioteca de mídia</translation>
     </message>
     <message>
         <source>Marketplace account connected.</source>
@@ -8434,7 +8434,7 @@
     </message>
     <message>
         <source>Daily limit reached for this source. Try again later.</source>
-        <translation>Limite diário atingido para esta fonte. Tente novamente mais tarde.</translation>
+        <translation>Limite diário atingido para esta fonte. Tente mais tarde.</translation>
     </message>
     <message>
         <source>This item needs a connected account.</source>
@@ -8466,11 +8466,11 @@
     </message>
     <message>
         <source>The marketplace took too long to answer. Try again.</source>
-        <translation>O mercado demorou muito para responder. Tente novamente.</translation>
+        <translation>O mercado demorou demais para responder. Tente de novo.</translation>
     </message>
     <message>
         <source>Couldn’t reach the marketplace. Check your connection and try again.</source>
-        <translation>Não foi possível acessar o mercado. Verifique sua conexão e tente novamente.</translation>
+        <translation>Não foi possível acessar o mercado. Confira sua conexão e tente de novo.</translation>
     </message>
 </context>
 <context>
@@ -8481,23 +8481,23 @@
     </message>
     <message>
         <source>This feature is still being built and can change or stop working at any time. Before you use it, please read what it can and cannot do.</source>
-        <translation>Este recurso ainda está sendo desenvolvido e pode mudar ou parar de funcionar a qualquer momento. Antes de usá-lo, leia o que ele pode e não pode fazer.</translation>
+        <translation>Este recurso ainda está sendo construído e pode mudar ou parar de funcionar a qualquer momento. Antes de usar, leia o que ele faz e o que não faz.</translation>
     </message>
     <message>
         <source>You get a limited number of downloads per day. The limit is small, may change without notice, and once it is used up you have to wait.</source>
-        <translation>Você tem um número limitado de downloads por dia. O limite é pequeno, pode mudar sem aviso prévio e, quando acabar, você terá que esperar.</translation>
+        <translation>Você tem um número limitado de downloads por dia. O limite é pequeno, pode mudar sem aviso, e quando acaba é preciso esperar.</translation>
     </message>
     <message>
         <source>We cannot guarantee that any source stays available. Sources can be removed, rate-limited or broken by the sites they pull from, at any time and without warning.</source>
-        <translation>Não podemos garantir que qualquer fonte permaneça disponível. As fontes podem ser removidas, ter acessos limitados ou parar de funcionar por causa dos sites de onde puxam dados, a qualquer momento e sem aviso prévio.</translation>
+        <translation>Não podemos garantir que uma fonte continue disponível. Fontes podem ser removidas, limitadas ou quebradas pelos sites de onde tiram o conteúdo, a qualquer momento e sem aviso.</translation>
     </message>
     <message>
         <source>We cannot guarantee that a download will succeed, finish, or give you the quality you picked. Some items will simply fail.</source>
-        <translation>Não podemos garantir que um download seja bem-sucedido, termine ou entregue a qualidade que você escolheu. Alguns itens simplesmente vão falhar.</translation>
+        <translation>Não podemos garantir que um download dê certo, termine, ou entregue a qualidade que você escolheu. Alguns itens simplesmente vão falhar.</translation>
     </message>
     <message>
         <source>Everything here comes from third parties. Drift does not host, own or vet it — you are responsible for making sure you have the right to use whatever you download.</source>
-        <translation>Tudo aqui vem de terceiros. O Drift não hospeda, possui nem verifica esse conteúdo — você é responsável por garantir que tem o direito de usar o que baixar.</translation>
+        <translation>Tudo aqui vem de terceiros. O Drift não hospeda, não é dono e não confere nada — você é responsável por garantir que tem o direito de usar o que baixar.</translation>
     </message>
     <message>
         <source>I understand</source>
@@ -8567,7 +8567,7 @@
     </message>
     <message>
         <source>Try again</source>
-        <translation>Tentar novamente</translation>
+        <translation>Tentar de novo</translation>
     </message>
     <message>
         <source>Search</source>
@@ -8582,11 +8582,11 @@
     </message>
     <message>
         <source>Drag a mask from the Masks tab onto a clip to edit it here</source>
-        <translation>Arraste uma máscara da aba Máscaras para um clipe para editá-la aqui</translation>
+        <translation>Arraste uma máscara da aba Máscaras sobre um clipe para editá-la aqui</translation>
     </message>
     <message>
         <source>Select a clip at the playhead to edit its masks</source>
-        <translation>Selecione um clipe no cursor de reprodução para editar suas máscaras</translation>
+        <translation>Selecione um clipe no cursor para editar as máscaras dele</translation>
     </message>
 </context>
 <context>
@@ -8637,11 +8637,11 @@
     </message>
     <message>
         <source>Intersect</source>
-        <translation>Interseccionar</translation>
+        <translation>Interseção</translation>
     </message>
     <message>
         <source>Remove cutout layer</source>
-        <translation>Remover camada de recorte</translation>
+        <translation>Remover a camada de recorte</translation>
     </message>
     <message>
         <source>Remove mask</source>
@@ -8680,23 +8680,23 @@
     <name>MasksTab</name>
     <message>
         <source>Click to apply to the selection, or drag onto a clip</source>
-        <translation>Clique para aplicar à seleção ou arraste para um clipe</translation>
+        <translation>Clique para aplicar à seleção, ou arraste sobre um clipe</translation>
     </message>
     <message>
         <source>Select a clip, or drag a mask onto one</source>
-        <translation>Selecione um clipe ou arraste uma máscara para um</translation>
+        <translation>Selecione um clipe, ou arraste uma máscara sobre um</translation>
     </message>
     <message>
         <source>Subject</source>
-        <translation>Assunto</translation>
+        <translation>Objeto</translation>
     </message>
     <message>
         <source>Cut out subject…</source>
-        <translation>Recortar assunto…</translation>
+        <translation>Recortar objeto…</translation>
     </message>
     <message>
         <source>Trace the subject and pin the result as a mask layer</source>
-        <translation>Trace o assunto e fixe o resultado como uma camada de máscara</translation>
+        <translation>Contorna o objeto e fixa o resultado como camada de máscara</translation>
     </message>
     <message>
         <source>Select a video clip first</source>
@@ -8704,15 +8704,15 @@
     </message>
     <message>
         <source>Download people cutout (about 20 MB)</source>
-        <translation>Baixar recorte de pessoas (cerca de 20 MB)</translation>
+        <translation>Baixar o recorte de pessoas (cerca de 20 MB)</translation>
     </message>
     <message>
         <source>Install AI engine first</source>
-        <translation>Instale primeiro o motor de IA</translation>
+        <translation>Instale o motor de IA primeiro</translation>
     </message>
     <message>
         <source>Add click-to-pick cutout (about 190 MB)</source>
-        <translation>Adicionar recorte de clique para selecionar (cerca de 190 MB)</translation>
+        <translation>Adicionar o recorte por clique (cerca de 190 MB)</translation>
     </message>
     <message>
         <source>Image or video as mask…</source>
@@ -8720,7 +8720,7 @@
     </message>
     <message>
         <source>Use a file&apos;s own pixels as the coverage map</source>
-        <translation>Use os próprios pixels de um arquivo como mapa de cobertura</translation>
+        <translation>Usa os próprios pixels de um arquivo como mapa de cobertura</translation>
     </message>
     <message>
         <source>Choose a mask image or video</source>
@@ -8736,11 +8736,11 @@
     </message>
     <message>
         <source>%1 — click to apply, or drag onto a clip</source>
-        <translation>%1 — clique para aplicar ou arraste para um clipe</translation>
+        <translation>%1 — clique para aplicar, ou arraste sobre um clipe</translation>
     </message>
     <message>
         <source>%1 — drag onto a clip</source>
-        <translation>%1 — arraste para um clipe</translation>
+        <translation>%1 — arraste sobre um clipe</translation>
     </message>
     <message>
         <source>Select a clip first, or drag the mask onto one</source>
@@ -8755,7 +8755,7 @@
     </message>
     <message>
         <source>Import files or drop them here, then drag them onto the timeline. Right-click a clip to preview and trim it first.</source>
-        <translation>Importe arquivos ou solte-os aqui, depois arraste-os para a linha do tempo. Clique com o botão direito em um clipe para pré-visualizá-lo e apará-lo primeiro.</translation>
+        <translation>Importe arquivos ou solte-os aqui, depois arraste para a linha do tempo. Clique com o botão direito num clipe para ver e aparar antes.</translation>
     </message>
     <message>
         <source>Import media</source>
@@ -8767,7 +8767,7 @@
     </message>
     <message>
         <source>Supported formats</source>
-        <translation>Formatos compatíveis</translation>
+        <translation>Formatos suportados</translation>
     </message>
     <message>
         <source>Video</source>
@@ -8795,15 +8795,15 @@
     </message>
     <message>
         <source>Grid view</source>
-        <translation>Visualização em grade</translation>
+        <translation>Grade</translation>
     </message>
     <message>
         <source>List view</source>
-        <translation>Visualização em lista</translation>
+        <translation>Lista</translation>
     </message>
     <message>
         <source>Tree view</source>
-        <translation>Visualização em árvore</translation>
+        <translation>Árvore</translation>
     </message>
     <message>
         <source>Sort by name</source>
@@ -8981,23 +8981,23 @@
     <name>MediaImport</name>
     <message>
         <source>An import is already running.</source>
-        <translation>Uma importação já está em andamento.</translation>
+        <translation>Já existe uma importação em andamento.</translation>
     </message>
     <message>
         <source>Import Media</source>
-        <translation>Importar mídia</translation>
+        <translation>Importar Mídia</translation>
     </message>
     <message>
         <source>Could not open that file. This package cannot read files dropped from other apps — use Import to pick them instead.</source>
-        <translation>Não foi possível abrir esse arquivo. Este pacote não pode ler arquivos soltos de outros aplicativos — use Importar para selecioná-los.</translation>
+        <translation>Não foi possível abrir esse arquivo. Este pacote não consegue ler arquivos arrastados de outros aplicativos — use Importar para escolhê-los.</translation>
     </message>
     <message>
         <source>Could not open those files. This package cannot read files dropped from other apps — use Import to pick them instead.</source>
-        <translation>Não foi possível abrir esses arquivos. Este pacote não pode ler arquivos soltos de outros aplicativos — use Importar para selecioná-los.</translation>
+        <translation>Não foi possível abrir esses arquivos. Este pacote não consegue ler arquivos arrastados de outros aplicativos — use Importar para escolhê-los.</translation>
     </message>
     <message>
         <source>Could not open that file. It may have been moved, or you may not have permission to read it.</source>
-        <translation>Não foi possível abrir esse arquivo. Ele pode ter sido movido ou você pode não ter permissão para lê-lo.</translation>
+        <translation>Não foi possível abrir esse arquivo. Ele pode ter sido movido, ou você pode não ter permissão para lê-lo.</translation>
     </message>
     <message>
         <source>Could not open any of the selected files.</source>
@@ -9005,11 +9005,11 @@
     </message>
     <message>
         <source>Could not read %1 — that image format is not supported by this build.</source>
-        <translation>Não foi possível ler %1 — esse formato de imagem não é compatível com esta versão.</translation>
+        <translation>Não foi possível ler %1 — esse formato de imagem não é suportado nesta versão.</translation>
     </message>
     <message>
         <source>Could not read that file — the format is not supported by this build.</source>
-        <translation>Não foi possível ler esse arquivo — o formato não é compatível com esta versão.</translation>
+        <translation>Não foi possível ler esse arquivo — o formato não é suportado nesta versão.</translation>
     </message>
     <message numerus="yes">
         <source>%n clip(s) may play back slowly. A proxy makes previewing smoother; export still uses the original.</source>
@@ -9035,28 +9035,28 @@
     </message>
     <message>
         <source>Imported %1 of %2 files. The rest could not be opened — this package cannot read files dropped from other apps. Use Import instead.</source>
-        <translation>Importados %1 de %2 arquivos. O restante não pôde ser aberto — este pacote não pode ler arquivos soltos de outros aplicativos. Use Importar em vez disso.</translation>
+        <translation>Importados %1 de %2 arquivos. O restante não pôde ser aberto — este pacote não consegue ler arquivos arrastados de outros aplicativos. Use Importar.</translation>
     </message>
     <message>
         <source>Imported %1 of %2 files. %3 could not be read.</source>
-        <translation>Importados %1 de %2 arquivos. Não foi possível ler %3 deles.</translation>
+        <translation>Importados %1 de %2 arquivos. %3 não puderam ser lidos.</translation>
     </message>
     <message numerus="yes">
         <source>Imported %n files.</source>
         <translation>
-            <numerusform>%n arquivo importado.</numerusform>
-            <numerusform>%n arquivos importados.</numerusform>
+            <numerusform>Importado %n arquivo.</numerusform>
+            <numerusform>Importados %n arquivos.</numerusform>
         </translation>
     </message>
     <message>
         <source>Could not import that file — the format may be unsupported.</source>
-        <translation>Não foi possível importar esse arquivo — o formato pode não ser compatível.</translation>
+        <translation>Não foi possível importar esse arquivo — o formato pode não ser suportado.</translation>
     </message>
     <message numerus="yes">
         <source>Could not import any of the %n selected files.</source>
         <translation>
-            <numerusform>%n arquivo selecionado não pôde ser importado.</numerusform>
-            <numerusform>Nenhum dos %n arquivos selecionados pôde ser importado.</numerusform>
+            <numerusform>Não foi possível importar o %n arquivo selecionado.</numerusform>
+            <numerusform>Não foi possível importar nenhum dos %n arquivos selecionados.</numerusform>
         </translation>
     </message>
 </context>
@@ -9459,7 +9459,7 @@
     </message>
     <message>
         <source>GPU preview unavailable — see Help → Debug info</source>
-        <translation>Pré-visualização por GPU indisponível — consulte Ajuda → Informações de depuração</translation>
+        <translation>Pré-visualização por placa de vídeo indisponível — veja Ajuda → Informações de diagnóstico</translation>
     </message>
     <message>
         <source>Program</source>
@@ -9583,11 +9583,11 @@
     </message>
     <message>
         <source>Solid</source>
-        <translation>Sólido</translation>
+        <translation>Sólida</translation>
     </message>
     <message>
         <source>Gradient</source>
-        <translation>Gradiente</translation>
+        <translation>Degradê</translation>
     </message>
     <message>
         <source>Texture</source>
@@ -9607,7 +9607,7 @@
     </message>
     <message>
         <source>Change image…</source>
-        <translation>Alterar imagem…</translation>
+        <translation>Trocar imagem…</translation>
     </message>
     <message>
         <source>Choose image…</source>
@@ -9615,7 +9615,7 @@
     </message>
     <message>
         <source>No image</source>
-        <translation>Nenhuma imagem</translation>
+        <translation>Sem imagem</translation>
     </message>
     <message>
         <source>Fit</source>
@@ -9623,11 +9623,11 @@
     </message>
     <message>
         <source>Tile</source>
-        <translation>Lado a lado</translation>
+        <translation>Repetir</translation>
     </message>
     <message>
         <source>Repeat the image across the layer</source>
-        <translation>Repetir a imagem por toda a camada</translation>
+        <translation>Repete a imagem por toda a camada</translation>
     </message>
     <message>
         <source>Cover</source>
@@ -9635,7 +9635,7 @@
     </message>
     <message>
         <source>Stretch one copy of the image over the layer</source>
-        <translation>Esticar uma cópia da imagem sobre a camada</translation>
+        <translation>Estica uma cópia da imagem sobre a camada</translation>
     </message>
     <message>
         <source>Scale</source>
@@ -9647,14 +9647,14 @@
     </message>
     <message>
         <source>Adjust paint effect</source>
-        <translation>Ajustar efeito de pintura</translation>
+        <translation>Ajustar o efeito da pintura</translation>
     </message>
 </context>
 <context>
     <name>PasteAttributesDialog</name>
     <message>
         <source>Paste Attributes</source>
-        <translation>Colar atributos</translation>
+        <translation>Colar Atributos</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -9685,7 +9685,7 @@
     </message>
     <message>
         <source>, reverse</source>
-        <translation>, reverso</translation>
+        <translation>, ao contrário</translation>
     </message>
     <message>
         <source>, speed curve</source>
@@ -9693,11 +9693,11 @@
     </message>
     <message>
         <source>Speed / Retime (%1x%2%3)</source>
-        <translation>Velocidade / Ajuste de tempo (%1x%2%3)</translation>
+        <translation>Velocidade / Retempo (%1x%2%3)</translation>
     </message>
     <message>
         <source>Speed / Retime</source>
-        <translation>Velocidade / Ajuste de tempo</translation>
+        <translation>Velocidade / Retempo</translation>
     </message>
     <message numerus="yes">
         <source>Video Effects (%n effect(s))</source>
@@ -9716,7 +9716,7 @@
     </message>
     <message>
         <source>Volume &amp; Fades (volume keyframes, in/out ramps)</source>
-        <translation>Volume e fades (quadros-chave de volume, rampas de entrada/saída)</translation>
+        <translation>Volume &amp; Fusões (quadros-chave de volume, rampas de entrada/saída)</translation>
     </message>
     <message numerus="yes">
         <source>Audio Effects (%n effect(s))</source>
@@ -9742,7 +9742,7 @@
     </message>
     <message>
         <source>Replace existing effects (instead of appending)</source>
-        <translation>Substituir efeitos existentes (em vez de acrescentar)</translation>
+        <translation>Substituir os efeitos existentes (em vez de acrescentar)</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -9750,18 +9750,18 @@
     </message>
     <message>
         <source>Select None</source>
-        <translation>Selecionar nenhum</translation>
+        <translation>Não selecionar nada</translation>
     </message>
 </context>
 <context>
     <name>PlaybackEngine</name>
     <message>
         <source>%1 decodes on %2, but Drift draws on %3. Every frame is copied through system memory, which is slower than decoding on the graphics card that draws.</source>
-        <translation>O %1 decodifica em %2, mas o Drift renderiza em %3. Cada quadro é copiado pela memória do sistema, o que é mais lento do que decodificar na placa de vídeo que renderiza.</translation>
+        <translation>%1 decodifica na %2, mas o Drift desenha na %3. Cada quadro é copiado pela memória do sistema, o que é mais lento do que decodificar na mesma placa de vídeo que desenha.</translation>
     </message>
     <message>
         <source>%1 decodes on a different graphics card than the one Drift draws on. Every frame is copied through system memory, which is slower than decoding on the graphics card that draws.</source>
-        <translation>O %1 decodifica em uma placa de vídeo diferente daquela em que o Drift renderiza. Cada quadro é copiado pela memória do sistema, o que é mais lento do que decodificar na placa de vídeo que renderiza.</translation>
+        <translation>%1 decodifica numa placa de vídeo diferente da que o Drift usa para desenhar. Cada quadro é copiado pela memória do sistema, o que é mais lento do que decodificar na mesma placa que desenha.</translation>
     </message>
     <message>
         <source>Auto</source>
@@ -9792,7 +9792,7 @@
     </message>
     <message>
         <source>Delivery jitter</source>
-        <translation>Jitter de entrega</translation>
+        <translation>Irregularidade na entrega</translation>
     </message>
     <message>
         <source>Composite (median)</source>
@@ -9804,7 +9804,7 @@
     </message>
     <message>
         <source>Decode wait (median)</source>
-        <translation>Espera de decodificação (mediana)</translation>
+        <translation>Espera da decodificação (mediana)</translation>
     </message>
     <message>
         <source>Preview scale</source>
@@ -9816,7 +9816,7 @@
     </message>
     <message>
         <source>Requests coalesced</source>
-        <translation>Requisições agrupadas</translation>
+        <translation>Pedidos agrupados</translation>
     </message>
     <message>
         <source>Composites in flight (peak)</source>
@@ -9824,7 +9824,7 @@
     </message>
     <message>
         <source>Preview upload</source>
-        <translation>Upload da pré-visualização</translation>
+        <translation>Envio para a pré-visualização</translation>
     </message>
     <message>
         <source>Playhead update (median)</source>
@@ -9863,19 +9863,19 @@
     </message>
     <message>
         <source>GPU preview unavailable</source>
-        <translation>Pré-visualização por GPU não disponível</translation>
+        <translation>Pré-visualização por placa de vídeo indisponível</translation>
     </message>
     <message>
         <source>Your graphics driver only provides %1. Drift&apos;s preview needs OpenGL 3.3.</source>
-        <translation>Seu driver de vídeo fornece apenas %1. A pré-visualização do Drift precisa de OpenGL 3.3.</translation>
+        <translation>O driver da sua placa de vídeo oferece apenas %1. A pré-visualização do Drift precisa de OpenGL 3.3.</translation>
     </message>
     <message>
         <source>Drift could not start its GPU renderer, so the preview cannot draw.</source>
-        <translation>O Drift não conseguiu iniciar seu renderizador por GPU, então a pré-visualização não pode ser desenhada.</translation>
+        <translation>O Drift não conseguiu iniciar o renderizador da placa de vídeo, então a pré-visualização não desenha.</translation>
     </message>
     <message>
         <source>Debug info</source>
-        <translation>Informações de depuração</translation>
+        <translation>Informações de diagnóstico</translation>
     </message>
     <message>
         <source>Audio only</source>
@@ -9986,7 +9986,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Keep mask handles on the preview while another clip is selected</source>
-        <translation>Manter as alças da máscara na pré-visualização enquanto outro clipe estiver selecionado</translation>
+        <translation>Manter as alças da máscara na pré-visualização enquanto outro clipe está selecionado</translation>
     </message>
     <message>
         <source>Exit fullscreen preview (Esc)</source>
@@ -9998,7 +9998,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Decoding on a different graphics card</source>
-        <translation>Decodificando em uma placa de vídeo diferente</translation>
+        <translation>Decodificando em outra placa de vídeo</translation>
     </message>
     <message>
         <source>Use anyway</source>
@@ -10010,11 +10010,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Launching Drift with prime-run (or DRI_PRIME=1) puts OpenGL on the same card as the decoder.</source>
-        <translation>Iniciar o Drift com prime-run (ou DRI_PRIME=1) coloca o OpenGL na mesma placa que o decodificador.</translation>
+        <translation>Abrir o Drift com prime-run (ou DRI_PRIME=1) coloca o OpenGL na mesma placa do decodificador.</translation>
     </message>
     <message>
         <source>Run Drift on the high-performance graphics card</source>
-        <translation>Executar o Drift na placa de vídeo de alto desempenho</translation>
+        <translation>Rodar o Drift na placa de vídeo de alto desempenho</translation>
     </message>
     <message>
         <source>Set Drift to High performance in Windows Settings &gt; Display &gt; Graphics, then restart Drift.</source>
@@ -10618,7 +10618,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Cannot open file: %1</source>
-        <translation>Não é possível abrir o arquivo: %1</translation>
+        <translation>Não foi possível abrir o arquivo: %1</translation>
     </message>
     <message>
         <source>File is empty</source>
@@ -10626,11 +10626,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Failed to decompress Premiere project archive</source>
-        <translation>Falha ao descompactar o arquivo de projeto do Premiere</translation>
+        <translation>Não foi possível descompactar o pacote do projeto do Premiere</translation>
     </message>
     <message>
         <source>XML parse error at line %1: %2</source>
-        <translation>Erro de análise de XML na linha %1: %2</translation>
+        <translation>Erro de leitura do XML na linha %1: %2</translation>
     </message>
     <message>
         <source>Imported Premiere Project</source>
@@ -10650,7 +10650,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>MOGRT archive is empty or invalid</source>
-        <translation>O arquivo MOGRT está vazio ou é inválido</translation>
+        <translation>O pacote MOGRT está vazio ou é inválido</translation>
     </message>
     <message>
         <source>Could not open file: %1</source>
@@ -10658,11 +10658,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Invalid or corrupt MLT / Kdenlive project</source>
-        <translation>Projeto do MLT / Kdenlive inválido ou corrompido</translation>
+        <translation>Projeto MLT / Kdenlive inválido ou corrompido</translation>
     </message>
     <message>
         <source>Failed to parse MLT XML document</source>
-        <translation>Falha ao analisar o documento XML do MLT</translation>
+        <translation>Não foi possível ler o documento XML do MLT</translation>
     </message>
     <message>
         <source>Root element is not &lt;mlt&gt;</source>
@@ -10670,7 +10670,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>XML parse error at line %1, column %2: %3</source>
-        <translation>Erro de análise de XML na linha %1, coluna %2: %3</translation>
+        <translation>Erro de leitura do XML na linha %1, coluna %2: %3</translation>
     </message>
     <message>
         <source>Root element is &lt;%1&gt;, expected &lt;fcpxml&gt;</source>
@@ -10678,23 +10678,23 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Cannot open DaVinci Resolve project archive: %1</source>
-        <translation>Não é possível abrir o arquivo de projeto do DaVinci Resolve: %1</translation>
+        <translation>Não foi possível abrir o pacote do projeto do DaVinci Resolve: %1</translation>
     </message>
     <message>
         <source>DaVinci Resolve project archive is empty or invalid</source>
-        <translation>O arquivo de projeto do DaVinci Resolve está vazio ou é inválido</translation>
+        <translation>O pacote do projeto do DaVinci Resolve está vazio ou é inválido</translation>
     </message>
     <message>
         <source>No edit events found in EDL</source>
-        <translation>Nenhum evento de edição encontrado no EDL</translation>
+        <translation>Nenhum evento de edição encontrado na EDL</translation>
     </message>
     <message>
         <source>Failed to parse OpenTimelineIO JSON: %1</source>
-        <translation>Falha ao analisar o JSON do OpenTimelineIO: %1</translation>
+        <translation>Não foi possível ler o JSON do OpenTimelineIO: %1</translation>
     </message>
     <message>
         <source>Not an OpenTimelineIO Timeline or Stack (schema: %1)</source>
-        <translation>Não é uma Timeline ou Stack do OpenTimelineIO (esquema: %1)</translation>
+        <translation>Não é uma Timeline nem um Stack do OpenTimelineIO (esquema: %1)</translation>
     </message>
 </context>
 <context>
@@ -11133,7 +11133,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Fast</source>
-        <translation>Rápida</translation>
+        <translation>Rápido</translation>
     </message>
     <message>
         <source>Looking at this moment…</source>
@@ -11153,7 +11153,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Everyone in the shot is cut out automatically — there is nothing to click.</source>
-        <translation>Todos na cena são recortados automaticamente — não há nada para clicar.</translation>
+        <translation>Todo mundo na cena é recortado automaticamente — não há nada para clicar.</translation>
     </message>
     <message>
         <source>Cut out</source>
@@ -11177,7 +11177,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Adds a mask layer under the clip. The clip itself is left alone — flip it to the background, or remove it, from the Masks tab.</source>
-        <translation>Adiciona uma camada de máscara sob o clipe. O clipe em si não é alterado — inverta-o para o fundo ou remova-o na aba Máscaras.</translation>
+        <translation>Adiciona uma camada de máscara sob o clipe. O clipe em si não é alterado — inverta para o fundo, ou remova, na aba Máscaras.</translation>
     </message>
     <message>
         <source>The cutout is only for this effect — no extra tracks are added.</source>
@@ -11212,7 +11212,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Done</source>
-        <translation>Concluir</translation>
+        <translation>Pronto</translation>
     </message>
 </context>
 <context>
@@ -11227,7 +11227,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Show alignment guides over the preview</source>
-        <translation>Mostrar guias de alinhamento sobre a pré-visualização</translation>
+        <translation>Mostra guias de alinhamento sobre a pré-visualização</translation>
     </message>
     <message>
         <source>Background</source>
@@ -11247,11 +11247,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Fill behind clips that don’t cover the whole screen</source>
-        <translation>Preenchimento atrás de clipes que não cobrem a tela inteira</translation>
+        <translation>Preenche atrás de clipes que não cobrem a tela inteira</translation>
     </message>
     <message>
         <source>Choose background colour</source>
-        <translation>Escolher cor do fundo</translation>
+        <translation>Escolha a cor do fundo</translation>
     </message>
     <message>
         <source>Blur strength</source>
@@ -11295,7 +11295,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Can make playback smoother by keeping video on the graphics card. Turn it off if the picture looks wrong. Takes effect after restart.</source>
-        <translation>Pode deixar a reprodução mais suave mantendo o vídeo na placa de vídeo. Desative se a imagem parecer incorreta. Entra em vigor após reiniciar.</translation>
+        <translation>Pode deixar a reprodução mais fluida mantendo o vídeo na placa de vídeo. Desative se a imagem aparecer errada. Entra em vigor depois de reiniciar.</translation>
     </message>
     <message>
         <source>Graphics card</source>
@@ -11307,15 +11307,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Power saving (integrated GPU)</source>
-        <translation>Economia de energia (GPU integrada)</translation>
+        <translation>Economia de energia (placa integrada)</translation>
     </message>
     <message>
         <source>High performance (discrete GPU)</source>
-        <translation>Alto desempenho (GPU dedicada)</translation>
+        <translation>Alto desempenho (placa dedicada)</translation>
     </message>
     <message>
         <source>Which graphics card Drift runs on. High performance keeps video decoded on an NVIDIA card on that card; power saving uses less battery. Takes effect after restart.</source>
-        <translation>Em qual placa de vídeo o Drift roda. Alto desempenho mantém o vídeo decodificado em uma placa NVIDIA nessa mesma placa; economia de energia gasta menos bateria. Entra em vigor após reiniciar.</translation>
+        <translation>Em qual placa de vídeo o Drift roda. Alto desempenho mantém na própria placa o vídeo decodificado numa NVIDIA; economia de energia gasta menos bateria. Entra em vigor depois de reiniciar.</translation>
     </message>
     <message>
         <source>Choose which graphics card Drift runs on in Windows Settings, under Display &gt; Graphics. Takes effect after restart.</source>
@@ -11335,7 +11335,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Where playback is heard. “System default” follows whatever your computer is set to, including when that changes.</source>
-        <translation>Onde a reprodução é ouvida. “Padrão do sistema” acompanha o que estiver definido no seu computador, inclusive quando isso mudar.</translation>
+        <translation>Por onde a reprodução é ouvida. “Padrão do sistema” acompanha o que estiver definido no computador, inclusive quando muda.</translation>
     </message>
     <message>
         <source>Microphone input</source>
@@ -11359,7 +11359,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Makes buttons, text, and icons larger. This is extra scale on top of the size already set in your display settings. Takes effect after restart.</source>
-        <translation>Deixa botões, textos e ícones maiores. Essa é uma escala extra, além do tamanho já definido nas configurações de exibição do sistema. Entra em vigor após reiniciar.</translation>
+        <translation>Deixa botões, textos e ícones maiores. É um aumento extra sobre o tamanho já definido nas configurações de vídeo do sistema. Entra em vigor depois de reiniciar.</translation>
     </message>
     <message>
         <source>Restart Drift to apply this size.</source>
@@ -11371,15 +11371,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Scroll pans left and right along the timeline. Shift+scroll moves between tracks. Middle-click drag also pans.</source>
-        <translation>A rolagem move para os lados na linha do tempo. Shift+rolagem alterna entre as faixas. Arrastar com o botão do meio também move.</translation>
+        <translation>A roda desliza para a esquerda e a direita na linha do tempo. Shift+roda muda de faixa. Arrastar com o botão do meio também desliza.</translation>
     </message>
     <message>
         <source>Haptic feedback</source>
-        <translation>Feedback tátil</translation>
+        <translation>Resposta tátil</translation>
     </message>
     <message>
         <source>Vibrate on taps, snaps, and edits. Uses this device’s own haptic effects when it has them.</source>
-        <translation>Vibra em toques, encaixes e edições. Usa os próprios efeitos táteis deste dispositivo quando disponíveis.</translation>
+        <translation>Vibra em toques, encaixes e edições. Usa os efeitos de vibração do próprio aparelho quando existem.</translation>
     </message>
     <message>
         <source>Language</source>
@@ -11387,7 +11387,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Language for menus and labels. Takes effect immediately.</source>
-        <translation>Idioma dos menus e rótulos. Tem efeito imediatamente.</translation>
+        <translation>Idioma dos menus e rótulos. Entra em vigor na hora.</translation>
     </message>
     <message>
         <source>App</source>
@@ -11399,7 +11399,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Automatically restore the last open project on startup. Closing still asks you to save; a crash snapshot never overwrites your save file.</source>
-        <translation>Restaura automaticamente o último projeto aberto ao iniciar. Fechar ainda pede para você salvar; um snapshot de falha nunca substitui o seu arquivo salvo.</translation>
+        <translation>Restaura sozinho o último projeto aberto ao iniciar. Ao fechar, ainda pergunta se quer salvar; uma cópia de emergência nunca sobrescreve o seu arquivo salvo.</translation>
     </message>
     <message>
         <source>Updates</source>
@@ -11411,7 +11411,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Ask GitHub once a day whether a newer Drift has been released</source>
-        <translation>Perguntar ao GitHub uma vez por dia se saiu uma versão mais nova do Drift</translation>
+        <translation>Pergunta ao GitHub uma vez por dia se saiu uma versão nova do Drift</translation>
     </message>
     <message>
         <source>Checking…</source>
@@ -11435,19 +11435,19 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Pulse the Extras icon when the video, transitions, and audio packs are not installed</source>
-        <translation>Fazer o ícone de Extras pulsar quando os pacotes de vídeo, transições e áudio não estiverem instalados</translation>
+        <translation>Pisca o ícone de Extras quando os pacotes de vídeo, transições e áudio não estão instalados</translation>
     </message>
     <message>
         <source>Remind about pack updates</source>
-        <translation>Lembrar de atualizações de pacotes</translation>
+        <translation>Lembrar das atualizações de pacotes</translation>
     </message>
     <message>
         <source>Pulse the Extras icon when updates are available for packs you already have installed</source>
-        <translation>Fazer o ícone de Extras pulsar quando houver atualizações para pacotes que você já tem instalados</translation>
+        <translation>Pisca o ícone de Extras quando há atualizações para pacotes que você já instalou</translation>
     </message>
     <message>
         <source>Agent access</source>
-        <translation>Acesso de agente</translation>
+        <translation>Acesso do agente</translation>
     </message>
     <message>
         <source>Cloud providers</source>
@@ -11515,7 +11515,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Marketplace</source>
-        <translation>Marketplace</translation>
+        <translation>Mercado</translation>
     </message>
     <message>
         <source>Account connected (%1)</source>
@@ -11523,7 +11523,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Marketplace account connected</source>
-        <translation>Conta do Marketplace conectada</translation>
+        <translation>Conta do mercado conectada</translation>
     </message>
     <message>
         <source>Disconnect</source>
@@ -11531,7 +11531,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Unlink the marketplace account from this device</source>
-        <translation>Desvincular a conta do marketplace deste dispositivo</translation>
+        <translation>Desvincula a conta do mercado deste computador</translation>
     </message>
 </context>
 <context>
@@ -11628,11 +11628,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Solid</source>
-        <translation>Sólido</translation>
+        <translation>Sólida</translation>
     </message>
     <message>
         <source>Gradient</source>
-        <translation>Gradiente</translation>
+        <translation>Degradê</translation>
     </message>
     <message>
         <source>Texture</source>
@@ -11652,11 +11652,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Screen</source>
-        <translation>Divisão</translation>
+        <translation>Tela</translation>
     </message>
     <message>
         <source>Overlay</source>
-        <translation>Sobreposição</translation>
+        <translation>Sobrepor</translation>
     </message>
     <message>
         <source>Add</source>
@@ -11676,11 +11676,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Outside</source>
-        <translation>Externo</translation>
+        <translation>Fora</translation>
     </message>
     <message>
         <source>Inside</source>
-        <translation>Interno</translation>
+        <translation>Dentro</translation>
     </message>
     <message>
         <source>Dashed</source>
@@ -11692,7 +11692,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Dash-dot</source>
-        <translation>Traço e ponto</translation>
+        <translation>Traço-ponto</translation>
     </message>
     <message>
         <source>Collapse layer</source>
@@ -11704,11 +11704,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Bring forward</source>
-        <translation>Avançar</translation>
+        <translation>Trazer para frente</translation>
     </message>
     <message>
         <source>Send backward</source>
-        <translation>Recuar</translation>
+        <translation>Enviar para trás</translation>
     </message>
     <message>
         <source>Hide layer</source>
@@ -11732,7 +11732,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Blend</source>
-        <translation>Mesclagem</translation>
+        <translation>Mistura</translation>
     </message>
     <message>
         <source>Width</source>
@@ -11744,27 +11744,27 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Centre the stroke on the outline, grow it outward, or keep it inside</source>
-        <translation>Centraliza o traçado no contorno, expande-o para fora ou mantém-no por dentro</translation>
+        <translation>Centraliza o contorno na borda, cresce para fora, ou mantém por dentro</translation>
     </message>
     <message>
         <source>Dash</source>
-        <translation>Tracejado</translation>
+        <translation>Traço</translation>
     </message>
     <message>
         <source>Dash offset</source>
-        <translation>Deslocamento do tracejado</translation>
+        <translation>Deslocamento do traço</translation>
     </message>
     <message>
         <source>Trim start</source>
-        <translation>Início do aparo</translation>
+        <translation>Aparar início</translation>
     </message>
     <message>
         <source>Trim end</source>
-        <translation>Fim do aparo</translation>
+        <translation>Aparar fim</translation>
     </message>
     <message>
         <source>Sketchy</source>
-        <translation>Esboço</translation>
+        <translation>Rabiscado</translation>
     </message>
     <message>
         <source>Segment</source>
@@ -11804,7 +11804,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Expansão</translation>
+        <translation>Espalhamento</translation>
     </message>
     <message>
         <source>Depth</source>
@@ -11816,7 +11816,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>How much the extruded side fades toward black</source>
-        <translation>O quanto o lado extrudado escurece em direção ao preto</translation>
+        <translation>O quanto a lateral extrudada escurece até o preto</translation>
     </message>
     <message>
         <source>Adjust extrude</source>
@@ -11843,7 +11843,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Swapping the shape keeps its position, size, style and effects.</source>
-        <translation>Trocar a forma mantém sua posição, tamanho, estilo e efeitos.</translation>
+        <translation>Trocar a forma mantém a posição, o tamanho, o estilo e os efeitos.</translation>
     </message>
     <message>
         <source>Layers</source>
@@ -11855,7 +11855,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Add a fill, stroke, shadow, glow or extrude layer</source>
-        <translation>Adicione uma camada de preenchimento, traçado, sombra, brilho ou extrusão</translation>
+        <translation>Adicione uma camada de preenchimento, contorno, sombra, brilho ou extrusão</translation>
     </message>
     <message>
         <source>Shadow</source>
@@ -12066,7 +12066,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Points</source>
-        <translation>Pontas</translation>
+        <translation>Pontos</translation>
     </message>
 </context>
 <context>
@@ -12952,11 +12952,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Choose the gradient&apos;s first colour</source>
-        <translation>Escolha a primeira cor do gradiente</translation>
+        <translation>Escolha a primeira cor do degradê</translation>
     </message>
     <message>
         <source>Edits the first gradient stop</source>
-        <translation>Edita o primeiro ponto de parada do gradiente</translation>
+        <translation>Edita a primeira parada do degradê</translation>
     </message>
     <message>
         <source>Style</source>
@@ -13012,15 +13012,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Snappy</source>
-        <translation>Ágil</translation>
+        <translation>Seco</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation>Voltar</translation>
+        <translation>Recuo</translation>
     </message>
     <message>
         <source>Bounce</source>
-        <translation>Quicar</translation>
+        <translation>Quique</translation>
     </message>
     <message>
         <source>Save style…</source>
@@ -13040,7 +13040,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Copy this style to every other caption on this track</source>
-        <translation>Copiar este estilo para todas as outras legendas nesta faixa</translation>
+        <translation>Copia este estilo para todas as outras legendas desta faixa</translation>
     </message>
     <message>
         <source>…every track</source>
@@ -13048,7 +13048,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Copy this style to every caption in the project</source>
-        <translation>Copiar este estilo para todas as legendas do projeto</translation>
+        <translation>Copia este estilo para todas as legendas do projeto</translation>
     </message>
     <message>
         <source>Font</source>
@@ -13076,7 +13076,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Boxes and rules drawn around the text rather than on it</source>
-        <translation>Caixas e linhas desenhadas ao redor do texto em vez de sobre ele</translation>
+        <translation>Caixas e linhas desenhadas ao redor do texto, não sobre ele</translation>
     </message>
     <message>
         <source>Animate</source>
@@ -13088,7 +13088,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Stagger</source>
-        <translation>Escalonamento</translation>
+        <translation>Defasagem</translation>
     </message>
     <message>
         <source>Delay between one unit and the next along the cycle</source>
@@ -13096,7 +13096,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Delay between one unit starting and the next</source>
-        <translation>Atraso entre o início de uma unidade e a seguinte</translation>
+        <translation>Atraso entre o início de uma unidade e o da seguinte</translation>
     </message>
     <message>
         <source>Order</source>
@@ -13104,7 +13104,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Ease</source>
-        <translation>Suave</translation>
+        <translation>Suavização</translation>
     </message>
     <message>
         <source>Advanced</source>
@@ -13116,11 +13116,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Revert to preset</source>
-        <translation>Reverter para predefinição</translation>
+        <translation>Voltar à predefinição</translation>
     </message>
     <message>
         <source>Drop the custom animators and go back to picking presets</source>
-        <translation>Descartar os animadores personalizados e voltar a escolher predefinições</translation>
+        <translation>Descarta os animadores personalizados e volta a escolher predefinições</translation>
     </message>
     <message>
         <source>Choose text colour</source>
@@ -13140,7 +13140,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Adjust text look</source>
-        <translation>Ajustar o visual do texto</translation>
+        <translation>Ajustar o estilo do texto</translation>
     </message>
     <message>
         <source>Layers</source>
@@ -13152,7 +13152,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Add a fill, stroke, shadow, glow or extrude layer</source>
-        <translation>Adicionar uma camada de preenchimento, traçado, sombra, brilho ou extrusão</translation>
+        <translation>Adicione uma camada de preenchimento, contorno, sombra, brilho ou extrusão</translation>
     </message>
     <message>
         <source>Fill</source>
@@ -13196,7 +13196,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Wrapping</source>
-        <translation>Quebra de texto</translation>
+        <translation>Quebra de linha</translation>
     </message>
     <message>
         <source>Word wrap</source>
@@ -13252,7 +13252,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Type your text…</source>
-        <translation>Digite seu texto…</translation>
+        <translation>Digite o seu texto…</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -13260,7 +13260,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Apply the text to this clip</source>
-        <translation>Aplicar o texto a este clipe</translation>
+        <translation>Aplica o texto a este clipe</translation>
     </message>
     <message>
         <source>Edit in Style</source>
@@ -13268,11 +13268,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>The text is painted with an image; change it on the Style page</source>
-        <translation>O texto está pintado com uma imagem; altere na página Estilo</translation>
+        <translation>O texto é pintado com uma imagem; troque na página Estilo</translation>
     </message>
     <message>
         <source>The text is painted with an effect; change it on the Style page</source>
-        <translation>O texto está pintado com um efeito; altere na página Estilo</translation>
+        <translation>O texto é pintado com um efeito; troque na página Estilo</translation>
     </message>
     <message>
         <source>Spacing</source>
@@ -13280,7 +13280,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Line height, letter spacing, wrapping and bend</source>
-        <translation>Altura da linha, espaçamento entre letras, quebra de texto e curvatura</translation>
+        <translation>Altura da linha, espaçamento entre letras, quebra e curvatura</translation>
     </message>
     <message>
         <source>Preset</source>
@@ -13288,7 +13288,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>A whole text style — font, colour and effect — applied in one tap</source>
-        <translation>Um estilo de texto completo — fonte, cor e efeito — aplicado com um toque</translation>
+        <translation>Um estilo de texto inteiro — fonte, cor e efeito — aplicado com um toque</translation>
     </message>
     <message>
         <source>Font, colour and effect in one tap. Save your own to reuse it.</source>
@@ -13296,7 +13296,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Save this text&apos;s style as a reusable preset</source>
-        <translation>Salvar o estilo deste texto como uma predefinição reutilizável</translation>
+        <translation>Salva o estilo deste texto como uma predefinição reutilizável</translation>
     </message>
     <message>
         <source>Effect</source>
@@ -13304,11 +13304,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Shadow, outline, neon and friends — a recipe that builds the layers below</source>
-        <translation>Sombra, contorno, neon e afins — uma receita que cria as camadas abaixo</translation>
+        <translation>Sombra, contorno, neon e companhia — uma receita que monta as camadas abaixo</translation>
     </message>
     <message>
         <source>Shadow, outline, neon… built as layers you can fine-tune below.</source>
-        <translation>Sombra, contorno, neon… criados como camadas que você pode ajustar abaixo.</translation>
+        <translation>Sombra, contorno, neon… montados como camadas que você ajusta abaixo.</translation>
     </message>
     <message>
         <source>No layers. Pick an effect above or add a fill to start.</source>
@@ -13428,11 +13428,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Plays for every caption</source>
-        <translation>Reproduz em cada legenda</translation>
+        <translation>Toca em todas as legendas</translation>
     </message>
     <message>
         <source>All</source>
-        <translation>Todos</translation>
+        <translation>Tudo</translation>
     </message>
     <message>
         <source>Preview this animation</source>
@@ -13459,7 +13459,7 @@ Se a reprodução travar, experimente outro.</translation>
     <name>TextLookPicker</name>
     <message>
         <source>Custom</source>
-        <translation>Personalizada</translation>
+        <translation>Personalizado</translation>
     </message>
     <message>
         <source>Aa</source>
@@ -13482,11 +13482,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Text for this slot</source>
-        <translation>Texto para este espaço</translation>
+        <translation>Texto deste espaço</translation>
     </message>
     <message>
         <source>Change image…</source>
-        <translation>Alterar imagem…</translation>
+        <translation>Trocar imagem…</translation>
     </message>
     <message>
         <source>Choose image…</source>
@@ -13525,7 +13525,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Spread</source>
-        <translation>Expansão</translation>
+        <translation>Espalhamento</translation>
     </message>
     <message>
         <source>Trim start</source>
@@ -13537,15 +13537,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Dash offset</source>
-        <translation>Deslocamento do tracejado</translation>
+        <translation>Deslocamento do traço</translation>
     </message>
     <message>
         <source>Sketch length</source>
-        <translation>Comprimento do esboço</translation>
+        <translation>Comprimento do rabisco</translation>
     </message>
     <message>
         <source>Sketch deviation</source>
-        <translation>Desvio do esboço</translation>
+        <translation>Desvio do rabisco</translation>
     </message>
     <message>
         <source>Red</source>
@@ -13565,15 +13565,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Gradient angle</source>
-        <translation>Ângulo do gradiente</translation>
+        <translation>Ângulo do degradê</translation>
     </message>
     <message>
         <source>Gradient offset</source>
-        <translation>Deslocamento do gradiente</translation>
+        <translation>Deslocamento do degradê</translation>
     </message>
     <message>
         <source>Gradient scale</source>
-        <translation>Escala do gradiente</translation>
+        <translation>Escala do degradê</translation>
     </message>
     <message>
         <source>Centre X</source>
@@ -13585,7 +13585,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Stop %1</source>
-        <translation>Ponto %1</translation>
+        <translation>Parada %1</translation>
     </message>
     <message>
         <source>Fill</source>
@@ -13621,7 +13621,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Box padding</source>
-        <translation>Espaçamento interno da caixa</translation>
+        <translation>Margem interna da caixa</translation>
     </message>
     <message>
         <source>Bend</source>
@@ -13827,7 +13827,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Move to its own track</source>
-        <translation>Mover para sua própria faixa</translation>
+        <translation>Mover para uma faixa própria</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -14021,7 +14021,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Show audio on separate track</source>
-        <translation>Mostrar áudio em faixa separada</translation>
+        <translation>Mostrar o áudio numa faixa separada</translation>
     </message>
     <message>
         <source>Trim start</source>
@@ -14440,7 +14440,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Show one combined waveform</source>
-        <translation>Mostrar uma forma de onda combinada</translation>
+        <translation>Mostrar uma onda combinada</translation>
     </message>
     <message>
         <source>Show each channel separately (%1)</source>
@@ -14663,7 +14663,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Corrects the source&apos;s own rotation losslessly — unlike Angle above, this changes decoding, not just the on-screen box.</source>
-        <translation>Corrige a própria rotação da fonte sem perdas — ao contrário de Ângulo acima, isso altera a decodificação, não apenas a caixa na tela.</translation>
+        <translation>Corrige a rotação do próprio arquivo sem perda — diferente do Ângulo acima, isto muda a decodificação, não só a caixa na tela.</translation>
     </message>
 </context>
 <context>
@@ -14866,11 +14866,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Custom</source>
-        <translation>Personalizada</translation>
+        <translation>Personalizado</translation>
     </message>
     <message>
         <source>Bezier</source>
-        <translation>Bezier</translation>
+        <translation>Bézier</translation>
     </message>
     <message>
         <source>On</source>
@@ -15091,11 +15091,11 @@ Se a reprodução travar, experimente outro.</translation>
     <name>VectorInspector</name>
     <message>
         <source>Toggle %1&apos;s keyframes</source>
-        <translation>Alternar quadros-chave de %1</translation>
+        <translation>Ligar/desligar os quadros-chave de %1</translation>
     </message>
     <message>
         <source>Key %1 at the playhead</source>
-        <translation>Adicionar quadro-chave de %1 no cursor de reprodução</translation>
+        <translation>Marcar %1 no cursor</translation>
     </message>
     <message>
         <source>Override the %1 colour</source>
@@ -15103,7 +15103,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Back to the drawing&apos;s own %1</source>
-        <translation>Voltar para o próprio %1 do desenho</translation>
+        <translation>Voltar ao %1 do próprio desenho</translation>
     </message>
     <message>
         <source>Replace Animation</source>
@@ -15135,7 +15135,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>still</source>
-        <translation>estático</translation>
+        <translation>imagem parada</translation>
     </message>
     <message>
         <source>inline document</source>
@@ -15147,7 +15147,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Load another .json or .svg; position, length, fit and loop stay</source>
-        <translation>Carregue outro .json ou .svg; posição, duração, ajuste e repetição são mantidos</translation>
+        <translation>Carrega outro .json ou .svg; posição, duração, ajuste e repetição continuam</translation>
     </message>
     <message>
         <source>Playback</source>
@@ -15175,11 +15175,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>After the end</source>
-        <translation>Após o fim</translation>
+        <translation>Depois do fim</translation>
     </message>
     <message>
         <source>Hold last frame</source>
-        <translation>Manter último quadro</translation>
+        <translation>Manter o último quadro</translation>
     </message>
     <message>
         <source>Loop</source>
@@ -15187,7 +15187,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Ping-pong</source>
-        <translation>Ping-pong</translation>
+        <translation>Vai e volta</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -15195,7 +15195,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>What plays once the animation has run its length</source>
-        <translation>O que é reproduzido depois que a animação chega ao fim de sua duração</translation>
+        <translation>O que acontece depois que a animação chega ao fim</translation>
     </message>
     <message>
         <source>Start offset</source>
@@ -15207,7 +15207,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Recolour the whole drawing, or one element the file names by id. Drawing-wide colours replace paints the file already has; outlines drawn with no fill stay hollow.</source>
-        <translation>Recolora todo o desenho ou um elemento que o arquivo identifica por id. As cores aplicadas a todo o desenho substituem as pinturas que o arquivo já possui; contornos desenhados sem preenchimento continuam vazados.</translation>
+        <translation>Recolore o desenho inteiro, ou um elemento que o arquivo identifica por id. As cores do desenho todo substituem as pinturas que o arquivo já tem; contornos sem preenchimento continuam vazados.</translation>
     </message>
     <message>
         <source>Target</source>
@@ -15255,7 +15255,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Drop every override on this target</source>
-        <translation>Descartar todas as substituições neste alvo</translation>
+        <translation>Descarta todas as substituições neste alvo</translation>
     </message>
     <message>
         <source>Reset all</source>
@@ -15263,11 +15263,11 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Slots</source>
-        <translation>Slots</translation>
+        <translation>Espaços</translation>
     </message>
     <message>
         <source>Template inputs the animation declares. Overrides are per clip.</source>
-        <translation>Entradas de modelo que a animação declara. As substituições são por clipe.</translation>
+        <translation>Entradas de modelo que a animação declara. As substituições valem por clipe.</translation>
     </message>
     <message>
         <source>Not rendered</source>
@@ -15356,7 +15356,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Clips keep their length. A higher rate samples more pictures per second from the same footage.</source>
-        <translation>Os clipes mantêm sua duração. Uma taxa mais alta amostra mais imagens por segundo da mesma filmagem.</translation>
+        <translation>Os clipes mantêm a duração. Uma taxa maior tira mais imagens por segundo do mesmo material.</translation>
     </message>
 </context>
 <context>
@@ -15429,7 +15429,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Lift</source>
-        <translation>Flutuante</translation>
+        <translation>Elevado</translation>
     </message>
     <message>
         <source>Hollow</source>
@@ -15437,7 +15437,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Splice</source>
-        <translation>Desalinhado</translation>
+        <translation>Recorte</translation>
     </message>
     <message>
         <source>Outline</source>
@@ -15465,7 +15465,7 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>Gradient</source>
-        <translation>Gradiente</translation>
+        <translation>Degradê</translation>
     </message>
     <message>
         <source>Shine</source>
@@ -15488,15 +15488,15 @@ Se a reprodução travar, experimente outro.</translation>
     </message>
     <message>
         <source>No OpenGL driver</source>
-        <translation>Nenhum driver OpenGL</translation>
+        <translation>Sem driver de OpenGL</translation>
     </message>
     <message>
         <source>Drift could not create an OpenGL context, so it cannot draw its interface or render the preview.
 
 Install or update your graphics driver.</source>
-        <translation>O Drift não conseguiu criar um contexto OpenGL, então não pode desenhar sua interface nem renderizar a pré-visualização.
+        <translation>O Drift não conseguiu criar um contexto OpenGL, então não consegue desenhar a interface nem renderizar a pré-visualização.
 
-Instale ou atualize seu driver de vídeo.</translation>
+Instale ou atualize o driver da sua placa de vídeo.</translation>
     </message>
     <message>
         <source>OpenGL context unavailable</source>
@@ -15506,21 +15506,21 @@ Instale ou atualize seu driver de vídeo.</translation>
         <source>Drift could not create an OpenGL 3.3 core profile context, though this driver reports OpenGL %1.%2 (%3).
 
 The video preview cannot render. Updating your graphics driver may help.</source>
-        <translation>O Drift não conseguiu criar um contexto de perfil principal do OpenGL 3.3, embora este driver informe OpenGL %1.%2 (%3).
+        <translation>O Drift não conseguiu criar um contexto OpenGL 3.3 core profile, embora este driver informe OpenGL %1.%2 (%3).
 
-A pré-visualização do vídeo não pode ser renderizada. Atualizar seu driver de vídeo pode ajudar.</translation>
+A pré-visualização de vídeo não renderiza. Atualizar o driver da placa de vídeo pode ajudar.</translation>
     </message>
     <message>
         <source>Graphics driver is too old</source>
-        <translation>O driver de vídeo é antigo demais</translation>
+        <translation>O driver da placa de vídeo é antigo demais</translation>
     </message>
     <message>
         <source>Drift needs OpenGL 3.3, but this graphics driver only provides OpenGL %1.%2 (%3).
 
 The video preview cannot render, and Drift may not start at all. Update your graphics driver, or run Drift on a machine with a newer GPU.</source>
-        <translation>O Drift precisa de OpenGL 3.3, mas este driver de vídeo fornece apenas OpenGL %1.%2 (%3).
+        <translation>O Drift precisa de OpenGL 3.3, mas este driver oferece apenas OpenGL %1.%2 (%3).
 
-A pré-visualização do vídeo não pode ser renderizada, e o Drift pode nem iniciar. Atualize seu driver de vídeo ou execute o Drift em uma máquina com uma GPU mais recente.</translation>
+A pré-visualização de vídeo não renderiza, e o Drift pode nem abrir. Atualize o driver da placa de vídeo, ou rode o Drift num computador com placa mais nova.</translation>
     </message>
     <message>
         <source>Drift is not drawing its window</source>
