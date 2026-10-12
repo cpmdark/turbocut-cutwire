@@ -102,13 +102,22 @@ FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
 8. Atualizar `## Estado atual` (abaixo) e o backlog privado.
 
-## Estado atual (atualizado 12/10/2026 — sync da v0.7.5 PRONTO NO LOCAL, aguardando push)
+## Estado atual (atualizado 12/10/2026 — v0.7.5 LANCADA)
 
-- **🔄 SYNC DA v0.7.5 FEITO NO LOCAL** (12/10), sobre a tag `v0.7.5` do Drift (05/10).
-  **265 commits deles / 563 arquivos** — maior que o da 0.6.0. Pula a 0.7.0 (28/09).
+- **🎉 v0.7.5 NO AR** (12/10): https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.7.5
+  Sync sobre a tag `v0.7.5` do Drift (05/10): **265 commits deles / 563 arquivos** —
+  maior que o da 0.6.0. Pula a 0.7.0 (28/09). Release verde de PRIMEIRA em todas as
+  plataformas (33 min). Instalador: 126 -> 130 MB. Titulo corrigido a mao (8-B);
+  feed e landing (`releases/latest`) ja respondem 0.7.5.
   Backup do main antigo: branch local `backup/pre-sync-0.7.5`. Tags do upstream
-  buscadas como `up-vX.Y.Z` (armadilha nº 1 evitada na origem). Falta: force-push
-  (o Alex libera), Tests verde, build de teste, tag.
+  buscadas como `up-vX.Y.Z` (armadilha nº 1 evitada na origem — melhor que apagar
+  e recriar depois).
+  - **Build de teste lento (88 min):** o cache vcpkg do Windows tinha expirado (o GitHub
+    apaga cache sem uso por 7 dias) e compilou OpenSSL & cia do zero. Normal; a release
+    seguinte reaproveitou.
+  - **Novo no release.yml:** o job "Dispatch store builds" dispara `msstore.yml` e
+    `playstore-aab.yml` depois de publicar. So geram artefatos (nada vai para loja,
+    sem os segredos deles) — inofensivos.
   - Delta: **25 commits**. Conflitos: `Drift.iss` e `package.yml` (eles criaram o
     **canal Nightly** — instalador com AppId proprio; o nosso nightly ganhou AppId
     NOVO `96B3680B-...`, o estavel segue `DC0EC0C4-...`), catalogo e metainfo.
