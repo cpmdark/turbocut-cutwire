@@ -100,24 +100,42 @@ FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
 6. Build de teste: `gh workflow run build-windows.yml -R cpmdark/turbocut-cutwire -f version=X.Y.Z-turboN`.
 7. Validou? Tag `vX.Y.Z` → release.yml gera TODAS as plataformas e publica a
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
-8. Atualizar `## Estado atual (atualizado 21/09/2026 — v0.6.0 LANCADA, o maior sync ate hoje)
+8. Atualizar `## Estado atual` (abaixo) e o backlog privado.
+
+## Estado atual (atualizado 12/10/2026 — sync da v0.7.5 PRONTO NO LOCAL, aguardando push)
+
+- **🔄 SYNC DA v0.7.5 FEITO NO LOCAL** (12/10), sobre a tag `v0.7.5` do Drift (05/10).
+  **265 commits deles / 563 arquivos** — maior que o da 0.6.0. Pula a 0.7.0 (28/09).
+  Backup do main antigo: branch local `backup/pre-sync-0.7.5`. Tags do upstream
+  buscadas como `up-vX.Y.Z` (armadilha nº 1 evitada na origem). Falta: force-push
+  (o Alex libera), Tests verde, build de teste, tag.
+  - Delta: **25 commits**. Conflitos: `Drift.iss` e `package.yml` (eles criaram o
+    **canal Nightly** — instalador com AppId proprio; o nosso nightly ganhou AppId
+    NOVO `96B3680B-...`, o estavel segue `DC0EC0C4-...`), catalogo e metainfo.
+  - **Catalogo: o Drift passou a manter a PROPRIA traducao pt-BR** (adotaram a
+    nossa e seguiram traduzindo). Base = a deles; por cima, as **384** escolhas nossas
+    que divergiam (ex.: "Ligue" x "Ative", "Pronto" x "Concluir") + **241 strings
+    novas** traduzidas aqui. 3.697 mensagens, 0 pendentes, cabecalho `en_US`.
+  - `nightly.yml` (cron diario) ja vem com guarda: so roda agendado no repo do Drift.
+    `release.yml` ganhou Homebrew e Discord — ambos `continue-on-error`, pulam sem
+    segredo. Nada a mudar.
+  - ⚠️ **Licao de processo:** o Bash do Windows (Git Bash) colapsa `\\` em heredoc
+    de Python e o `/tmp` dele nao e o do Python — um script falhou em silencio e o
+    commit seguinte levou MARCADORES DE CONFLITO (pego e emendado antes do push).
+    Scripts de resolucao: arquivo no scratchpad + `&&` em TUDO + `git grep "^<<<<<<< "`
+    antes de seguir.
+  - Pendente fora do sync: o modo `--headless` (`src/HeadlessApp.cpp`) ainda usa a
+    pasta "CutWire Drift" — ja era assim na 0.6.0.
+
+### Historico: v0.6.0 (21/09/2026)
 
 - **🎉 v0.6.0 NO AR** (21/09): https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.6.0
   Sync de **143 commits deles / 445 arquivos** sobre a base v0.5.1. Release verde
   de PRIMEIRA em todas as plataformas (Flatpak incluso). Instalador: 110 -> 126 MB.
   - Entrega ao usuario: **camada de ajuste** (ideia do Alex, issue #154), **colar
-    atributos com escolha do que levar em varios clipes** (a "telinha de checkbox"
-    que ele descreveu do CapCut), importar PASTA, selecao multipla e pastas
-    aninhadas na biblioteca, recorte de pessoa, estilos de texto em camadas COM
-    GRADIENTE, ~50 animacoes de texto (maquina de escrever, karaoke com salto),
-    Lottie/SVG, 100+ transicoes, mercado de midia, Direct3D 11 no Windows.
-  - **Catalogo: 1.026 strings traduzidas** (2.773 mensagens, 0 pendentes). Quase
-    nada era reaproveitavel (2 de 1.026) — a v0.6.0 trouxe UI inteiramente nova.
-  - Delta: **21 commits**. Conflitos resolvidos: `.gitignore` (somar), `main.cpp`
-    (as duas classes irmas — a `CachedNetworkAccessManagerFactory` deles e o nosso
-    `TurboSplash` — mais o `};` compartilhado), `PKGBUILD` (nosso repo + a
-    dependencia Skia nova, 2x), catalogo (ficou o deles; traducao virou commit
-    proprio) e metainfo (a entrada 0.6.0 deles + a nossa 0.5.1 em portugues).
+    atributos com escolha do que levar em varios clipes**, importar PASTA, selecao
+    multipla e pastas aninhadas na biblioteca, recorte de pessoa, estilos de texto
+    em camadas com gradiente, ~50 animacoes de texto, Lottie/SVG, 100+ transicoes.
 - **⚠️ REGRA DE OURO 7 VIROU HISTORICA:** o fix FreeType SUMIU da v0.6.0 e esta
   CERTO que suma — eles consertaram a causa raiz no commit `d9bc922` (a fonte
   variavel `Inter.ttf` corrompia glifos; trocada por instancias estaticas
