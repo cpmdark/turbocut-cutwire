@@ -110,8 +110,9 @@ void StartupSplash::drawContents(QPainter *painter)
     const qreal textX = kMargin + kLogoSize + 16;
     painter->setFont(m_titleFont);
     painter->setPen(m_foreground);
+    // TurboCut: o logo já vem de drift.png (arte nossa); só o nome muda aqui.
     painter->drawText(QRectF(textX, kMargin, kWidth - textX - kMargin, 32), Qt::AlignLeft | Qt::AlignVCenter,
-                      QStringLiteral("Drift"));
+                      QStringLiteral("TurboCut"));
     painter->setFont(m_bodyFont);
     painter->setPen(m_foregroundMuted);
     painter->drawText(QRectF(textX, kMargin + 32, kWidth - textX - kMargin, 20), Qt::AlignLeft | Qt::AlignVCenter,
