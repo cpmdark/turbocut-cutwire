@@ -13,6 +13,9 @@ on:
 
 permissions:
   contents: read
+  # Desde a 0.8.0 os jobs do package.yml pedem actions: write (cache); sem isto o
+  # chamado nem começa (startup_failure).
+  actions: write
 
 jobs:
   package:
