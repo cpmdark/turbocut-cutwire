@@ -78,31 +78,61 @@ obras; **todo sync parte da última tag `vX.Y.Z`**.
 
 ## O delta completo (onde a marca mora)
 
-Ver [FORK.md](FORK.md) — tabela arquivo a arquivo. Resumo: `src/main.cpp` (nomes,
-FreeType, splash `TurboSplash`), `src/qml/Main.qml` (título),
-`installer/windows/Drift.iss`, `CMakeLists.txt` (feed de update → este repo),
-`.github/workflows/` (artefatos TurboCut-* + `build-windows.yml` manual),
-`i18n/drift_pt_BR.ts`, `packaging/arch/PKGBUILD` (fonte = este repo),
-`branding/`, `resources/splash.png`.
+Ver [FORK.md](FORK.md) — tabela arquivo a arquivo. Resumo: `src/app/main.cpp` (nomes),
+`src/app/StartupSplash.cpp` (nome no splash do Drift), `src/qml/Main.qml` e
+`AndroidMain.qml` (título), `src/app/online/updates/UpdateAsset.cpp` (aceita
+`TurboCut-Setup-*`), `installer/windows/Drift.iss`, `CMakeLists.txt` (feed de update →
+este repo), `.github/workflows/` (artefatos TurboCut-* + `build-windows.yml` manual),
+`i18n/drift_pt_BR.ts`, `packaging/arch/PKGBUILD` (fonte = este repo), `branding/`.
 
 ## Workflow de sync (quando o Drift lançar versão nova)
 
-1. `git fetch upstream --tags`
-2. Rebase dos nossos commits sobre a NOVA TAG (`git rebase --onto vX.Y.Z <tag-antiga> main`).
-   Conflitos esperados: quase nenhum (delta fino); `main.cpp` se mexerem no boot.
-3. Regenerar o catálogo pt-BR contra o novo `i18n/drift.ts`: script
-   `remap-ptbr.ps1` (reaproveita por chave contexto+fonte com normalização de
-   apóstrofos retos↔curvos; só traduzir as strings novas à mão).
-4. Conferir regras de ouro 4–6. Push (o Alex roda force-push se pedir; push normal
-   passa).
-5. O workflow **Tests** roda sozinho no push (10 testes; `Translations` é o
-   guardião do catálogo).
-6. Build de teste: `gh workflow run build-windows.yml -R cpmdark/turbocut-cutwire -f version=X.Y.Z-turboN`.
+1. Tags do Drift com PREFIXO (nunca `--tags` puro — armadilha nº 1):
+   `git fetch upstream --no-tags "refs/tags/vX.Y.Z:refs/tags/up-vX.Y.Z"` + branch `backup/pre-sync-X.Y.Z`.
+2. Rebase dos nossos commits sobre a NOVA TAG (`git rebase --onto up-vX.Y.Z up-v<antiga> main`).
+   Conflitos esperados: instalador, `package.yml`, PKGBUILD, metainfo, README; `main.cpp` se
+   mexerem no boot. Nos commits de catálogo intermediários, ficar com o DELES (`checkout --ours`):
+   o catálogo é remontado de uma vez no passo 3.
+3. Catálogo pt-BR (o Drift mantém pt-BR próprio desde a 0.7.5): `_planejamento/scripts/merge_ptbr.py`
+   (base = deles; por cima as nossas escolhas e o que eles deixaram em branco; gera
+   `pendentes.json`) → traduzir os pendentes → `apply_ptbr.py` (valida placeholders/tags/plurais
+   e grava no formato canônico). O `remap-ptbr.ps1` é do tempo em que não havia pt-BR deles.
+4. Conferir regras de ouro 4–6. Push numa branch `sync/X.Y.Z` (push normal, sem trava) para
+   testar; o `main` só leva force-push depois de validado (o Alex solta a trava).
+5. O workflow **Tests** roda sozinho no push (`Translations` é o guardião do catálogo).
+6. Build de teste: `gh workflow run build-windows.yml -R cpmdark/turbocut-cutwire --ref sync/X.Y.Z -f version=X.Y.Z-turboN`.
 7. Validou? Tag `vX.Y.Z` → release.yml gera TODAS as plataformas e publica a
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
 8. Atualizar `## Estado atual` (abaixo) e o backlog privado.
 
-## Estado atual (atualizado 12/10/2026 — v0.7.5 LANCADA)
+## Estado atual (atualizado 09/11/2026 — sync da v0.9.1 FEITO, aguardando build de teste)
+
+- **Sync da v0.9.1 pronto na branch `sync/0.9.1`** (push normal; o `main` do GitHub segue
+  na 0.7.5 até o Alex validar e soltar a trava do force-push). Pula a 0.8.0 (13/10) e a
+  0.9.0 (01/11): **469 commits deles / 2.298 arquivos** — o maior até hoje. Delta: 30 commits.
+  Backup: `backup/pre-sync-0.9.1`; tags `up-v0.8.0`, `up-v0.9.0`, `up-v0.9.1`.
+  - **Decisões do Alex (09/11):** (1) splash: ficou o do PRÓPRIO Drift (`StartupSplash`, com
+    barra de progresso, já desenha `drift.png`), só o nome vira "TurboCut" — a `TurboSplash`
+    e o `resources/splash.png` saíram; (2) o atualizador do app (que desde a 0.8.0 baixa,
+    confere SHA-256 e instala sozinho) aceita `TurboCut-Setup-*` — 1 linha em
+    `UpdateAsset.cpp` + teste em `tst_updateasset.cpp`. Mac/Linux já funcionavam (dmg e
+    AppImage seguem `Drift-*`).
+  - **Arquivos que MUDARAM DE LUGAR no Drift:** `src/main.cpp` → `src/app/main.cpp`,
+    `src/HeadlessApp.cpp` → `src/app/HeadlessApp.cpp`, `DebugInfoDialog.qml` →
+    `components/dialogs/` (e o link de bug agora existe também no `HelpDialog.qml`).
+  - Instalador: arch vira parâmetro (`/DArm64`); o nosso runtime do Visual C++ passou a
+    ser `vc_redist.<arch>.exe`. O Windows ARM vem DESLIGADO no `package.yml` deles
+    (skia[gl] não suporta) — nada a fazer agora.
+  - `build-windows.yml` precisou de `actions: write` (startup_failure sem isso).
+  - Catálogo: 6.208 mensagens. Base deles + 262 escolhas nossas + 1.186 novas traduzidas
+    aqui (4 lotes em paralelo, termos padronizados: Mercado, quadros-chave, espaços de
+    trabalho, manipulador 3D, Source Lab). 0 pendentes, `en_US`, recuo 12/8 conferido.
+  - ⚠️ Ainda é do Drift: o ícone de macOS novo (`resources/macos/Drift.icon/`, SVG — o nosso
+    logo oficial é PNG; precisa de um SVG da marca) e o título da release ("Drift vX" —
+    corrigir à mão, 8-B). Projeto salvo na 0.9.1 (histórico de desfazer no arquivo)
+    provavelmente não abre mais na 0.7.5.
+
+### Historico: v0.7.5 (12/10/2026)
 
 - **🎉 v0.7.5 NO AR** (12/10): https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.7.5
   Sync sobre a tag `v0.7.5` do Drift (05/10): **265 commits deles / 563 arquivos** —
