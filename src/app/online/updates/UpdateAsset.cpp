@@ -61,7 +61,9 @@ ReleaseAsset selectReleaseAsset(const QJsonArray &assets, const QString &platfor
         if (!name.endsWith(suffix))
             continue;
         // The portable zip is not an installer, and a dmg is never named Setup.
-        if (windows && !name.startsWith(QLatin1String("Drift-Setup-")))
+        // TurboCut: o nosso instalador se chama TurboCut-Setup-* (a landing depende do nome).
+        if (windows && !name.startsWith(QLatin1String("Drift-Setup-"))
+            && !name.startsWith(QLatin1String("TurboCut-Setup-")))
             continue;
         if (!windows && !name.startsWith(QLatin1String("Drift-")))
             continue;

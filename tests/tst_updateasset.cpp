@@ -63,6 +63,17 @@ void UpdateAssetTest::windowsInstallerIgnoresPortableZip()
              QStringLiteral("Drift-Setup-1.2.0-arm64.exe"));
     QCOMPARE(drift::selectReleaseAsset(withArm, QStringLiteral("windows"), QStringLiteral("x86_64")).name,
              QStringLiteral("Drift-Setup-1.2.0-x64.exe"));
+
+    // TurboCut: o instalador do fork, ao lado do portable dele, também é aceito.
+    const QJsonArray turbocut{
+            QJsonObject{{QStringLiteral("name"), QStringLiteral("TurboCut-Portable-1.2.0-x64.zip")},
+                        {QStringLiteral("browser_download_url"),
+                         QStringLiteral("https://github.com/cpmdark/turbocut-cutwire/releases/download/v1.2.0/TurboCut-Portable-1.2.0-x64.zip")}},
+            QJsonObject{{QStringLiteral("name"), QStringLiteral("TurboCut-Setup-1.2.0-x64.exe")},
+                        {QStringLiteral("browser_download_url"),
+                         QStringLiteral("https://github.com/cpmdark/turbocut-cutwire/releases/download/v1.2.0/TurboCut-Setup-1.2.0-x64.exe")}}};
+    QCOMPARE(drift::selectReleaseAsset(turbocut, QStringLiteral("windows"), QStringLiteral("x86_64")).name,
+             QStringLiteral("TurboCut-Setup-1.2.0-x64.exe"));
 }
 
 void UpdateAssetTest::macDiskImage()
