@@ -89,171 +89,45 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="0.9.1" date="2026-11-05">
-      <url type="details">https://github.com/CutWire-Studios/Drift/releases/tag/v0.9.1</url>
+    <release version="0.9.1" date="2026-11-09">
+      <url type="details">https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.9.1</url>
       <description>
-        <p>Drift 0.9.1 is a bug fix update for the interface, with updates to the 3D workspace
-        as well.</p>
+        <p>Três versões do projeto original numa só atualização. O editor agora se molda ao
+        trabalho: espaços de trabalho para cor, quadros-chave, legendas e máscaras, temas claro e
+        escuro, um modo 3D completo e voz gerada no seu computador. Tudo em português.</p>
         <ul>
-          <li>3D workspace: two live views side by side, After Effects-style coordinates and a
-          reworked camera</li>
-          <li>Undo history is saved in the project file, with no 50-step limit, and projects save
-          in the background</li>
-          <li>Shape crops: crop a clip to a circle, polygon, star or heart and pan and zoom the
-          content inside it</li>
-          <li>The Crop window opens on the frame under the playhead and can rotate and flip</li>
-          <li>New Privacy Blur effect with blur, mosaic and solid bar modes, and a new Reverb
-          audio effect</li>
-          <li>Remove silence and Sync by audio clip actions</li>
-          <li>Timeline: replace a clip's media with another library asset, a Move to track menu,
-          remove all empty tracks, dissolve a composite clip back into its clips, and tabs to
-          switch between composite sequences</li>
-          <li>Moving a linked video to another track takes its audio with it</li>
-          <li>A shared curve picker for animations, with custom curves</li>
-          <li>A miter limit for text and shape strokes</li>
-          <li>Choose where Drift keeps its cache</li>
-          <li>Text, shapes and Lottie clips render sharply at their on-screen size, including
-          fractional text sizes</li>
-          <li>Relinking a missing file updates every clip that uses it and offers to relink files
-          next to it</li>
-          <li>Timeline fixes: clips can be split and trimmed down to one frame, the playhead no
-          longer steps backwards during playback, dropped transitions are added as chosen, fade
-          handles drag again and follow in/out animations, clips shrink with zoom, and track and
-          keyframe headers resize</li>
-          <li>Interface fixes: context menus stay on screen and scroll when tall, transform grips
-          work outside the canvas, the scale link toggle works again, number fields no longer
-          change on hover, empty panels and toasts draw inside their bounds, and the library tab
-          rail can be resized</li>
-          <li>Render fixes: exports above the project size render at the output resolution,
-          transition edges no longer show dark fringes, and star masks draw five points</li>
-          <li>Android: more reliable clip drag and trim handles on the timeline</li>
-          <li>Translations: Japanese, Portuguese (Portugal) and Vietnamese updated</li>
+          <li>Espaços de trabalho: monte o seu layout, abra painéis em outras janelas e troque
+          entre as visões prontas de edição, cor, quadros-chave, legendas, máscaras e Source Lab</li>
+          <li>Temas: escuro, claro e os translúcidos Graphite e Frost, e você pode importar os
+          seus</li>
+          <li>Correção de cor: rodas de cor, curvas, ajuste por cor, looks com LUT (.cube) e
+          histograma, forma de onda e vetorscópio</li>
+          <li>Editor de quadros-chave de verdade: curvas, vários quadros-chave de uma vez, copiar e
+          colar, esticar, e suavizações prontas como elástico e quique</li>
+          <li>Máscaras e rastreamento: pincel e polígono, rastreio de ponto e de plano, máscara
+          de objeto com IA e "Desfocar esta área"</li>
+          <li>Desfazer sem limite e salvo junto com o projeto, que agora salva em segundo plano</li>
+          <li>3D: visualização 3D com câmera de cena, duas vistas lado a lado, luzes e Gaussian
+          splats</li>
+          <li>Voz gerada no próprio computador, com clonagem de voz e narração a partir das
+          legendas</li>
+          <li>Recorte em forma de círculo, polígono, estrela ou coração, e o novo Desfoque de
+          privacidade (desfoque, mosaico ou tarja)</li>
+          <li>Remover silêncio e sincronizar clipes pelo áudio, direto no clipe</li>
+          <li>Efeitos de áudio em pedais (filtros, saturação, reverb, delay) e um efeito de
+          contorno com traço, brilho, sombra e bordas rasgadas ou queimadas</li>
+          <li>Texto editado direto na pré-visualização, fontes do sistema e as suas próprias, e
+          emojis coloridos</li>
+          <li>PDF na linha do tempo, sequências de imagens numeradas como um vídeo só, e clipes
+          ligados que andam e aparam juntos</li>
+          <li>Source Lab: visualizador quadro a quadro com JKL, marcadores e trechos favoritos,
+          além de cortar, acelerar, tirar ruído e estabilizar antes de levar para a edição</li>
+          <li>Busca geral com Ctrl+K, configuração rápida no primeiro uso e Configurações novas,
+          com busca</li>
+          <li>A atualização agora é baixada, conferida e instalada pelo próprio TurboCut</li>
+          <li>Centenas de correções na linha do tempo, na interface e na exportação</li>
         </ul>
-        <p>Thanks to Idelson Queiroz Boone for undo history in the project, shape crops, privacy
-        blur, reverb, remove silence and sync by audio; to @mightycrystal7, @CesarSullen and
-        @Gamistano for reporting issues fixed here; to @Ricardo-Simoes for Portuguese (Portugal);
-        to @coolvitto for Japanese; and to Nguyễn Lam for Vietnamese.</p>
-      </description>
-    </release>
-    <release version="0.9.0" date="2026-11-01">
-      <url type="details">https://github.com/CutWire-Studios/Drift/releases/tag/v0.9.0</url>
-      <description>
-        <p>Drift 0.9 lets you shape the editor around the job: workspaces with your own
-        layouts, themes, a colour grading workspace and a much better keyframe editor.</p>
-        <ul>
-          <li>Workspaces: design your own layouts, open panels in extra windows and switch
-          between preset views for editing, colour, keyframes, subtitles, masking and tracking,
-          and Source Lab</li>
-          <li>Themes: dark and light plus the translucent Graphite and Frost themes, window
-          backdrops, and importing your own themes</li>
-          <li>Colour grading: a Color workspace with a Color Grade effect, colour wheels, curves,
-          hue curves and per-colour HSL, looks with .cube LUT import, and histogram, waveform and
-          vectorscope readings</li>
-          <li>Keyframe editor: a Keyframes workspace with a property tree, lanes and a curve
-          editor; multi-key selection, copy and paste, stretching and scaling keys; per-segment
-          easing presets including elastic and bounce, saved easings and optional bezier
-          handles</li>
-          <li>Source Lab replaces Cut / Trim: a frame-accurate source viewer with JKL and
-          timecode entry, favourite and reject ranges, markers and scene splits, plus crop,
-          speed, loudness, denoise, stabilize and upscale, with replace in bin, add as copy or
-          export to a file</li>
-          <li>Masking and Tracking workspace: brush and polygon masks, point and planar
-          tracking, AI object masks, Blur this area, per-frame brush fixes on AI cutouts and
-          locking a tracked object to the screen</li>
-          <li>Subtitles workspace with a cue grid, lane, text and timing panels and VTT
-          support</li>
-          <li>Quick Setup on first run: language, theme, interface size, essential addons and
-          tips</li>
-          <li>Extras store and marketplace in their own windows, with an install queue,
-          automatic dependencies and every download tracked in one place</li>
-          <li>Search everything with Ctrl+K, including panels, settings and controls</li>
-          <li>A redesigned settings dialog with search, a network proxy, an interface graphics
-          API choice and import and export of preferences</li>
-          <li>Select several clips in the preview and transform them together, in 2D and
-          3D</li>
-          <li>Timeline: sub-clips from a source's in/out range, automatic crossfades on
-          overlaps, trim to playhead buttons, auto-select under the playhead, alignment guides
-          and waveforms scaled by clip volume</li>
-          <li>Inspector: drag numeric fields to scrub them, pick the scale origin from an
-          anchor grid, and straighten crops</li>
-          <li>Effects: audio spectrum and waveform visualizers, text case
-          and strikethrough, and miter, round and bevel stroke joins</li>
-          <li>AMD GPUs can run AI features through MIGraphX, and Drift offers another engine
-          when the chosen one fails</li>
-          <li>Faster playback: background decoding pauses during playback, a 1/8 preview
-          quality, and panels that load only when shown</li>
-          <li>New builds for Intel macOS, Windows on ARM and Linux on ARM</li>
-          <li>Android: a redesigned phone interface with a tabbed home and full-page tools,
-          touch mask editing, and headphones used for playback</li>
-          <li>MCP: themes, crop and rotation, media bin folders, the marketplace, audio analysis
-          and running several Drift instances at once</li>
-          <li>Fixes: changing a clip's speed keeps its source range, playback stays in sync
-          after the audio device changes, large blurs stay smooth, edited media is kept on
-          save, and Android imports files with unusual names</li>
-          <li>Translations: Chinese (Simplified) and Portuguese (Portugal) completed; Japanese,
-          Polish, Russian, Spanish (Colombia), Tagalog and Vietnamese updated</li>
-        </ul>
-        <p>Thanks to @jmn8718 for straightening crops, multiple instances, the MCP crop tools,
-        faster playback and start screen access to settings; to @jgafarias for timeline
-        alignment guides, separated embedded audio and export and preview
-        fixes; to @thilakshan2003 for keeping the source range on speed changes; to @wklxd for
-        Chinese (Simplified); to @Ricardo-Simoes for Portuguese (Portugal); to @coolvitto for
-        Japanese; to Paweł Korobajło for Polish; to Nguyễn Lam for Vietnamese; to Dmitry for
-        Russian; to Kamitazic for Spanish (Colombia); and to @TSFBCE24RhythmHeaveners for
-        Tagalog.</p>
-      </description>
-    </release>
-    <release version="0.8.0" date="2026-10-13">
-      <url type="details">https://github.com/CutWire-Studios/Drift/releases/tag/v0.8.0</url>
-      <description>
-        <p>Drift goes 3D: a 3D preview mode with a scene camera, Gaussian splats and lights you
-        can place in the view. It also brings local text-to-speech with voice cloning, PDF clips,
-        audio effects built from pedals, an Outline effect, a rebuilt text engine and a much
-        more usable Android app.</p>
-        <ul>
-          <li>3D preview mode: a free 3D view with a camera gizmo, orbit and zoom controls and a
-          Blender-style fly mode; 3D models sit in the scene as world-space layers</li>
-          <li>Scene camera: add a camera track and pan, orbit and dolly every clip through it,
-          with per-clip depth occlusion</li>
-          <li>Gaussian splats: import SOG, streamed SOG and 3DGS PLY files</li>
-          <li>3D lighting: four point and spot lights editable in the 3D view, and depth-effect
-          clips shown as a relief with draggable light gizmos</li>
-          <li>Text to speech: generate speech and clone voices locally, with a voice library and
-          voiceovers from subtitles</li>
-          <li>PDF clips: place PDF pages on the timeline and scroll through them</li>
-          <li>Audio effects made of pedals: filters, drive, reverb, convolution reverb, delay and
-          more in series, parallel or frequency splits, with LFOs, envelope followers and step
-          sequencers, and keyframable parameters</li>
-          <li>Outline effect: strokes, dashes, gradient fills, shadows, glows and torn, burnt,
-          stamp and other edge styles around any clip</li>
-          <li>Text: edit text directly on the preview, system fonts and your own font files in
-          the picker, colour emoji fonts, and new plain and bold styles</li>
-          <li>Link unrelated clips so they move and trim together</li>
-          <li>Import numbered image sequences as a single video clip</li>
-          <li>Proxies are kept next to the source footage and relinked automatically</li>
-          <li>Generated captions stay in sync when the clip's speed or direction changes</li>
-          <li>Close Gap can move a track's first clip to the start, and deleting with ripple on
-          closes the gap</li>
-          <li>Projects open in the background behind a progress dialog</li>
-          <li>Notifications show one at a time, with a history under a bell in the header</li>
-          <li>Updates download only when you ask, are verified, and install in place on
-          Windows, macOS and AppImage</li>
-          <li>Android: tablets, DeX and ChromeOS open the desktop layout, made touch-friendly;
-          choose the desktop or mobile layout on any device; a keyboard composer for text and
-          subtitles</li>
-          <li>macOS: an appearance-aware app icon and better native menu integration</li>
-          <li>MCP: tools for text to speech, PDFs, the 3D view, the scene camera, effect presets
-          and closing projects</li>
-          <li>Fixes: undo for keyframe tangents, holds and bookmarks, panels no longer shrink on
-          every launch, export reports why it failed, a project name is asked for on first save,
-          AVI, MKV and WebM play in the macOS trim window, and fonts on Windows</li>
-          <li>Translations: Bengali added; Japanese, Korean, Polish, Portuguese, Vietnamese and
-          many others updated</li>
-        </ul>
-        <p>Thanks to @rangaNP for the macOS icon, menu and update work; to André Mota for linking
-        clips; to Jose Miguel Navarro for Close Gap and the MCP project tools; to @NipunSGeeTH for
-        linked keyframe coordinates; to Mehedi Hasan for Bengali; to Paweł Korobajło for Polish;
-        to @coolvitto for Japanese; and to Nguyễn Lam for Vietnamese.</p>
+        <p>Baseado no CutWire Drift 0.9.1.</p>
       </description>
     </release>
     <release version="0.7.5" date="2026-10-12">
