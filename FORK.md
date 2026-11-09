@@ -23,14 +23,15 @@ repositório.
 
 | Área | Arquivos | O quê |
 |---|---|---|
-| Nome do app | `src/main.cpp`, `src/qml/Main.qml` | `setApplicationName/OrganizationName` e título da janela → "TurboCut" (AppData fica em `%APPDATA%\TurboCut`, separado do Drift) |
+| Nome do app | `src/app/main.cpp`, `src/qml/Main.qml`, `src/qml/AndroidMain.qml` | `setApplicationName/OrganizationName` e título da janela → "TurboCut" (AppData fica em `%APPDATA%\TurboCut`, separado do Drift) |
 | Ícones | `Drift_icon.png`, `resources/drift.png`, `resources/windows/drift.ico` | Arte TurboCut (mesmos nomes de arquivo para manter o delta pequeno) |
 | Instalador Windows | `installer/windows/Drift.iss` | Nome/publisher TurboCut, **AppIds próprios** — estável e nightly (nunca conflitam com uma instalação do Drift), binário instalado como `turbocut.exe`, instalador em pt-BR, ProgID `TurboCut.Project` |
 | Visual do instalador | `resources/windows/wizard-large.bmp`, `wizard-small.bmp` (gerados; fonte em `branding/TurboCut-instalador-arte.png`) | Banner e logo do assistente do Inno Setup com a marca TurboCut, no lugar do visual padrão |
-| Splash de abertura | `src/main.cpp` (classe `TurboSplash`), `resources/splash.png`, `CMakeLists.txt` | Tela preta com o wordmark em fade e barra prata indeterminada enquanto fontes/caches/QML carregam; fecha quando a janela principal aparece |
+| Splash de abertura | `src/app/StartupSplash.cpp` | O splash do próprio Drift (desde a 0.8.0), que já desenha o logo de `resources/drift.png`; só o nome escrito vira "TurboCut" |
 | Feed de atualização | `CMakeLists.txt` (`DRIFT_UPDATE_FEED_URL`) | Aponta para as releases deste repositório, não para as do Drift |
-| Link de bugs no app | `src/qml/components/DebugInfoDialog.qml` | "Report a bug" abre as issues deste repositório (documentação e Discord continuam sendo os do CutWire) |
-| CI | `.github/workflows/package.yml`, `build-windows.yml` (novo) | Artefatos `TurboCut-Setup-*.exe` / `TurboCut-Portable-*.zip`; build manual só-Windows |
+| Atualização no Windows | `src/app/online/updates/UpdateAsset.cpp`, `tests/tst_updateasset.cpp` | O atualizador do app aceita o instalador `TurboCut-Setup-*` além do `Drift-Setup-*` (sem isso, o Windows só abria a página da release) |
+| Link de bugs no app | `src/qml/components/dialogs/DebugInfoDialog.qml`, `dialogs/HelpDialog.qml` | "Report a bug" e "Abrir uma issue" levam às issues deste repositório (documentação, Discord e e-mail continuam sendo os do CutWire) |
+| CI | `.github/workflows/package.yml`, `build-windows.yml` (novo) | Artefatos `TurboCut-Setup-*.exe` / `TurboCut-Portable-*.zip` (por arquitetura) e o runtime do Visual C++ (`vc_redist.<arch>.exe`) no instalador; build manual só-Windows |
 | Tradução | `i18n/drift_pt_BR.ts` | Interface completa em português do Brasil (planejamos contribuir a tradução ao upstream) |
 | Identidade | `README.md`, `FORK.md`, `branding/` | Este aviso, a arte da marca |
 
