@@ -105,12 +105,16 @@ este repo), `.github/workflows/` (artefatos TurboCut-* + `build-windows.yml` man
    release (o aviso de atualização in-app e o card do TurboStudio leem daqui).
 8. Atualizar `## Estado atual` (abaixo) e o backlog privado.
 
-## Estado atual (atualizado 09/11/2026 — sync da v0.9.1 FEITO, aguardando build de teste)
+## Estado atual (atualizado 10/11/2026 — v0.9.1 LANCADA)
 
-- **Sync da v0.9.1 pronto na branch `sync/0.9.1`** (push normal; o `main` do GitHub segue
-  na 0.7.5 até o Alex validar e soltar a trava do force-push). Pula a 0.8.0 (13/10) e a
-  0.9.0 (01/11): **469 commits deles / 2.298 arquivos** — o maior até hoje. Delta: 30 commits.
-  Backup: `backup/pre-sync-0.9.1`; tags `up-v0.8.0`, `up-v0.9.0`, `up-v0.9.1`.
+- **🎉 v0.9.1 NO AR** (10/11): https://github.com/cpmdark/turbocut-cutwire/releases/tag/v0.9.1
+  Release verde de PRIMEIRA em todas as plataformas (2h07). Instalador: 130 -> 147 MB.
+  Título corrigido à mão (8-B); `releases/latest` responde 0.9.1 e o `TurboCut-Setup` tem
+  digest SHA-256 (o atualizador do app exige). Tests 30/30 e build `0.9.1-turbo1` verdes antes.
+  Pula a 0.8.0 (13/10) e a 0.9.0 (01/11): **469 commits deles / 2.298 arquivos** — o maior
+  até hoje. Delta: 30 commits. Backup: `backup/pre-sync-0.9.1`; tags `up-v0.8.0/0.9.0/0.9.1`.
+  - **Force-push:** o "Allow force pushes" do `main` ficou LIGADO por escolha do Alex (09/11).
+    A branch `sync/0.9.1` (teste) segue no origin.
   - **Decisões do Alex (09/11):** (1) splash: ficou o do PRÓPRIO Drift (`StartupSplash`, com
     barra de progresso, já desenha `drift.png`), só o nome vira "TurboCut" — a `TurboSplash`
     e o `resources/splash.png` saíram; (2) o atualizador do app (que desde a 0.8.0 baixa,
